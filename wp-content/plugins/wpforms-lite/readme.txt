@@ -3,7 +3,7 @@ Contributors: wpforms, jaredatch, smub, slaFFik
 Tags: contact form, contact form plugin, forms, form builder, custom form, contact button, contact me, custom contact form, form manager, form, forms builder, forms creator, captcha, recaptcha, Akismet, email form, web form, feedback form, payment form, survey form, donation form, email submit form, message form, mailchimp, mailchimp form, aweber, aweber form, paypal, paypal form, stripe, stripe form, getresponse, getresponse form, email subscription, contact form widget, user registration form, wordpress registration, wordpress login form, feedback
 Requires at least: 5.2
 Tested up to: 6.1
-Stable tag: 1.7.8
+Stable tag: 1.7.9.1
 Requires PHP: 5.6
 License: GNU General Public License v2.0 or later
 
@@ -158,6 +158,7 @@ Since contact forms are essential for marketing, WPForms is a must have plugin f
 * <a href="https://wpforms.com/addons/offline-forms-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">Offline Forms</a> - Let your visitors save their entered data offline and submit when their internet connection is restored.
 * <a href="https://wpforms.com/addons/form-pages-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">Form Landing Pages</a> - Create "distraction-free" form landing pages to boost conversions. Great Google Forms and Wufoo alternative.
 * <a href="https://wpforms.com/addons/conversational-forms-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">Conversational Forms</a> - Interactive form layout that makes your form feels more human and boost overall completion rate. Great for surveys and registration forms. Perfect Typeform alternative for WordPress without the high costs.
+* <a href="https://wpforms.com/addons/lead-forms-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">Lead Forms</a> - Embed conversational forms in any post or page to boost conversion rates. Easily convert existing forms to Lead Forms and control the styling of your form so that it matches your theme.
 * <a href="https://wpforms.com/addons/webhooks-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">Webhooks</a> - Send form entry data to secondary tools and external services. No code required, and no need for a third party connector.
 * <a href="https://wpforms.com/addons/user-journey-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">User Journey Reporting</a> - Discover the steps your visitors take before they submit your forms. Right in the WordPress dashboard, you can easily see the content that's driving the most valuable form conversions.
 * <a href="https://wpforms.com/addons/save-and-resume-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteplugin" rel="friend">Save and Resume Forms</a> - Allows your visitors to save their progress while filling in your forms. When they're ready to continue, they can restore their entry with a click.
@@ -235,10 +236,10 @@ Visit <a href="https://www.wpbeginner.com/" rel="friend" title="WPBeginner">WPBe
 
 1. WPForms Drag & Drop Online Form Builder
 2. Adding New Field
-3. Form Preview
-4. Form Settings
-5. Conversational Forms addon
-6. Form Pages addon
+3. WPForms Settings
+4. Form Preview
+5. Form Pages with multiple styles
+6. Conversational Forms
 
 == Frequently Asked Questions ==
 
@@ -432,6 +433,27 @@ Thank you
 Syed Balkhi
 
 == Changelog ==
+
+= 1.7.9.1 =
+- Fixed: Incorrect spacing around the Submit button in the Form Builder was fixed.
+- Fixed: Missing assets were added to the plugin.
+
+= 1.7.9 =
+- Added: Icon Choices feature for Checkboxes and Multiple Choice fields - a selection of 2000+ icons can now be used with your choices!
+- Changed: Avoid rendering the WPForms Import admin page if the user lacks `unfiltered_html` capability.
+- Changed: Respect site settings for displaying avatars on the Revisions screen in the Form Builder.
+- Changed: Color picker fields in the Form Builder are now correctly handling default colors.
+- Changed: In the form Notifications you can now set up the Reply-To Name value in addition to the Reply-To Email using a special format.
+- Changed: Updated jquery-confirm library to 3.3.4.
+- Fixed: Prevent field duplication in the Form Builder performed multiple times when clicking fast inside the confirmation modal.
+- Fixed: Action links were rendered on two lines in the admin dashboard widget.
+- Fixed: PHP notices were generated when form locations logic ran for unregistered post types.
+- Fixed: The Embed modal performance in the Form Builder was improved a lot when there are a ton of pages on a site.
+- Fixed: The confirmation message for non-AJAX form submissions wasn't wrapped into the main form container.
+- Fixed: Improved compatibility with Elementor popups v3.9+.
+- Fixed: Notification email suggestion didn't work properly in WordPress installed in a subdomain.
+- Fixed: `{page_title}` smart tag was conflicting with the wpSEO plugin.
+- Fixed: Better compatibility with the Popup Maker plugin.
 
 = 1.7.8 =
 - Added: All anti-spam protection settings are grouped in one place in the Form Builder > Settings for easier access.

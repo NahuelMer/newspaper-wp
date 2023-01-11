@@ -1,0 +1,749 @@
+0000.002 (0) Opened log file at time: Wed, 11 Jan 2023 18:04:31 +0000 on http://localhost/newspaper
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.1.10 (apache2handler, Windows NT AR-IT06825 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.25-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 90.1M | 92M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 135061.2 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.020 (0) Semaphore (fd, np_options) being initialised
+0000.025 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.029 (0) Set semaphore last lock (fd) time to 2023-01-11 18:04:31
+0000.031 (0) Semaphore lock (fd) complete
+0000.036 (0) Backup run: resumption=0, nonce=32715fae12b4, file_nonce=32715fae12b4 begun at=1673460271 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1673460571) in case this run gets aborted
+0000.064 (0) Checking if we have a zip executable available
+0000.068 (0) Creation of backups of directories: beginning
+0000.076 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.237 (0) Total entities for the zip file: 1577 directories, 7092 files (0 skipped as non-modified), 118.7 MB
+0006.250 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0009.480 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 22 (23) files added so far); re-opening (prior size: 274.6 KB)
+0012.443 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 33 (56) files added so far); re-opening (prior size: 427.5 KB)
+0015.480 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 40 (96) files added so far); re-opening (prior size: 857.4 KB)
+0015.909 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 100 files added (on-disk size: 1323.5 KB)
+0018.467 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 49 (145) files added so far); re-opening (prior size: 1323.5 KB)
+0021.006 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 200 files added (on-disk size: 1424.8 KB)
+0021.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 58 (203) files added so far); re-opening (prior size: 1424.8 KB)
+0024.512 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 63 (266) files added so far); re-opening (prior size: 1784 KB)
+0025.436 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 300 files added (on-disk size: 1937.9 KB)
+0027.418 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 69 (335) files added so far); re-opening (prior size: 1937.9 KB)
+0028.162 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 400 files added (on-disk size: 2139.9 KB)
+0030.546 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 82 (417) files added so far); re-opening (prior size: 2139.9 KB)
+0032.083 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 500 files added (on-disk size: 2242.8 KB)
+0033.407 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 91 (508) files added so far); re-opening (prior size: 2242.8 KB)
+0036.120 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 600 files added (on-disk size: 2297 KB)
+0037.440 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 98 (606) files added so far); re-opening (prior size: 2297 KB)
+0041.313 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 700 files added (on-disk size: 2348.1 KB)
+0041.544 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 95 (701) files added so far); re-opening (prior size: 2348.1 KB)
+0045.480 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 93 (794) files added so far); re-opening (prior size: 2437.9 KB)
+0046.424 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 800 files added (on-disk size: 2508.9 KB)
+0048.604 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 90 (884) files added so far); re-opening (prior size: 2508.9 KB)
+0049.669 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 900 files added (on-disk size: 2681.8 KB)
+0052.419 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 85 (969) files added so far); re-opening (prior size: 2681.8 KB)
+0053.373 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1000 files added (on-disk size: 3144.7 KB)
+0055.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.1 MB, 89 (1058) files added so far); re-opening (prior size: 3144.7 KB)
+0056.977 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1100 files added (on-disk size: 4261.1 KB)
+0059.596 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.9 MB, 101 (1159) files added so far); re-opening (prior size: 4261.1 KB)
+0061.787 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1200 files added (on-disk size: 6737.2 KB)
+0064.420 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.8 MB, 92 (1251) files added so far); re-opening (prior size: 6737.2 KB)
+0066.151 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1300 files added (on-disk size: 8696.7 KB)
+0068.549 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 98 (1349) files added so far); re-opening (prior size: 8696.7 KB)
+0069.530 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1400 files added (on-disk size: 8848.2 KB)
+0071.444 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 103 (1452) files added so far); re-opening (prior size: 8848.2 KB)
+0072.622 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1500 files added (on-disk size: 8989.1 KB)
+0074.536 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 108 (1560) files added so far); re-opening (prior size: 8989.1 KB)
+0075.584 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1600 files added (on-disk size: 9213.5 KB)
+0077.460 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 114 (1674) files added so far); re-opening (prior size: 9213.5 KB)
+0078.526 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1700 files added (on-disk size: 9445.1 KB)
+0080.469 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.1 MB, 121 (1795) files added so far); re-opening (prior size: 9445.1 KB)
+0082.289 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1800 files added (on-disk size: 10122.5 KB)
+0082.526 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 1900 files added (on-disk size: 10122.5 KB)
+0084.444 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.7 MB, 124 (1919) files added so far); re-opening (prior size: 10122.5 KB)
+0086.474 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2000 files added (on-disk size: 11700.6 KB)
+0088.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 130 (2049) files added so far); re-opening (prior size: 11700.6 KB)
+0090.306 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2100 files added (on-disk size: 12202 KB)
+0092.456 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 131 (2180) files added so far); re-opening (prior size: 12202 KB)
+0093.557 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2200 files added (on-disk size: 12379.9 KB)
+0093.969 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2300 files added (on-disk size: 12379.9 KB)
+0095.589 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 132 (2312) files added so far); re-opening (prior size: 12379.9 KB)
+0097.191 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2400 files added (on-disk size: 12607.4 KB)
+0099.461 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 138 (2450) files added so far); re-opening (prior size: 12607.4 KB)
+0100.742 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2500 files added (on-disk size: 12832.2 KB)
+0103.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 146 (2596) files added so far); re-opening (prior size: 12832.2 KB)
+0105.138 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2600 files added (on-disk size: 13326.1 KB)
+0105.428 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2700 files added (on-disk size: 13326.1 KB)
+0107.409 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 147 (2743) files added so far); re-opening (prior size: 13326.1 KB)
+0109.623 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2800 files added (on-disk size: 13807.1 KB)
+0111.586 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 149 (2892) files added so far); re-opening (prior size: 13807.1 KB)
+0113.909 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 2900 files added (on-disk size: 14076.7 KB)
+0114.148 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3000 files added (on-disk size: 14076.7 KB)
+0116.629 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.1 MB, 154 (3046) files added so far); re-opening (prior size: 14076.7 KB)
+0118.952 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3100 files added (on-disk size: 14943.5 KB)
+0120.981 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3200 files added (on-disk size: 14943.5 KB)
+0121.691 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 156 (3202) files added so far); re-opening (prior size: 14943.5 KB)
+0123.851 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3300 files added (on-disk size: 15861.6 KB)
+0125.692 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.4 MB, 160 (3362) files added so far); re-opening (prior size: 15861.6 KB)
+0128.484 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3400 files added (on-disk size: 18024.3 KB)
+0128.777 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3500 files added (on-disk size: 18024.3 KB)
+0130.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.5 MB, 160 (3522) files added so far); re-opening (prior size: 18024.3 KB)
+0133.837 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3600 files added (on-disk size: 20329.9 KB)
+0135.662 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 156 (3678) files added so far); re-opening (prior size: 20329.9 KB)
+0137.916 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3700 files added (on-disk size: 20633.2 KB)
+0138.175 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3800 files added (on-disk size: 20633.2 KB)
+0140.545 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 155 (3833) files added so far); re-opening (prior size: 20633.2 KB)
+0143.074 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 3900 files added (on-disk size: 20874.4 KB)
+0145.457 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 144 (3977) files added so far); re-opening (prior size: 20874.4 KB)
+0148.097 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4000 files added (on-disk size: 21310.9 KB)
+0148.383 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4100 files added (on-disk size: 21310.9 KB)
+0150.452 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 140 (4117) files added so far); re-opening (prior size: 21310.9 KB)
+0153.109 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4200 files added (on-disk size: 21445.4 KB)
+0155.577 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 143 (4260) files added so far); re-opening (prior size: 21445.4 KB)
+0158.247 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4300 files added (on-disk size: 21703.5 KB)
+0160.720 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 136 (4396) files added so far); re-opening (prior size: 21703.5 KB)
+0163.423 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4400 files added (on-disk size: 22407.2 KB)
+0163.673 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4500 files added (on-disk size: 22407.2 KB)
+0165.467 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.3 MB, 135 (4531) files added so far); re-opening (prior size: 22407.2 KB)
+0172.949 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4600 files added (on-disk size: 25876.3 KB)
+0174.821 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 132 (4663) files added so far); re-opening (prior size: 25876.3 KB)
+0177.725 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4700 files added (on-disk size: 26481.1 KB)
+0179.624 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 128 (4791) files added so far); re-opening (prior size: 26481.1 KB)
+0182.538 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4800 files added (on-disk size: 26988.1 KB)
+0182.953 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 4900 files added (on-disk size: 26988.1 KB)
+0184.560 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 127 (4918) files added so far); re-opening (prior size: 26988.1 KB)
+0187.845 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5000 files added (on-disk size: 27199.1 KB)
+0189.454 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 124 (5042) files added so far); re-opening (prior size: 27199.1 KB)
+0192.444 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5100 files added (on-disk size: 28541.4 KB)
+0194.663 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 127 (5169) files added so far); re-opening (prior size: 28541.4 KB)
+0197.513 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5200 files added (on-disk size: 29095.7 KB)
+0199.683 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 130 (5299) files added so far); re-opening (prior size: 29095.7 KB)
+0202.258 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5300 files added (on-disk size: 29455 KB)
+0202.521 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5400 files added (on-disk size: 29455 KB)
+0204.924 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 130 (5429) files added so far); re-opening (prior size: 29455 KB)
+0208.251 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5500 files added (on-disk size: 29696.2 KB)
+0210.519 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 117 (5546) files added so far); re-opening (prior size: 29696.2 KB)
+0213.859 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5600 files added (on-disk size: 29886.9 KB)
+0215.897 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 97 (5643) files added so far); re-opening (prior size: 29886.9 KB)
+0219.658 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5700 files added (on-disk size: 30040.3 KB)
+0221.638 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 82 (5725) files added so far); re-opening (prior size: 30040.3 KB)
+0225.237 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5800 files added (on-disk size: 30160.7 KB)
+0226.842 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 78 (5803) files added so far); re-opening (prior size: 30160.7 KB)
+0231.761 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 77 (5880) files added so far); re-opening (prior size: 30291.6 KB)
+0234.439 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 5900 files added (on-disk size: 30378.7 KB)
+0236.853 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 72 (5952) files added so far); re-opening (prior size: 30378.7 KB)
+0239.493 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6000 files added (on-disk size: 30519.8 KB)
+0241.696 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 68 (6020) files added so far); re-opening (prior size: 30519.8 KB)
+0246.679 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 68 (6088) files added so far); re-opening (prior size: 30714.3 KB)
+0249.019 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6100 files added (on-disk size: 30884.1 KB)
+0250.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 62 (6150) files added so far); re-opening (prior size: 30884.1 KB)
+0253.614 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6200 files added (on-disk size: 31036.7 KB)
+0255.911 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 58 (6208) files added so far); re-opening (prior size: 31036.7 KB)
+0258.231 (0) The scheduled resumption is within 45 seconds - will reschedule
+0258.236 (0) Rescheduling resumption 1: moving to 345 seconds from now (1673460874)
+0258.242 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0260.542 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6211) files added so far); re-opening (prior size: 31578.3 KB)
+0265.742 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (6216) files added so far); re-opening (prior size: 31592.2 KB)
+0270.626 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 8 (6224) files added so far); re-opening (prior size: 31616.7 KB)
+0275.993 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 10 (6234) files added so far); re-opening (prior size: 31749.6 KB)
+0280.485 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 10 (6244) files added so far); re-opening (prior size: 31827.2 KB)
+0285.557 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 12 (6256) files added so far); re-opening (prior size: 31960.1 KB)
+0289.891 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 14 (6270) files added so far); re-opening (prior size: 32069.2 KB)
+0293.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 12 (6282) files added so far); re-opening (prior size: 32222.4 KB)
+0298.738 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 11 (6293) files added so far); re-opening (prior size: 32292.8 KB)
+0301.343 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6300 files added (on-disk size: 32359.2 KB)
+0303.918 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 14 (6307) files added so far); re-opening (prior size: 32359.2 KB)
+0308.815 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 17 (6324) files added so far); re-opening (prior size: 32542 KB)
+0313.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 17 (6341) files added so far); re-opening (prior size: 32659.6 KB)
+0315.955 (0) The time we have been running (315.9) is approaching the resumption interval (345) - increasing resumption interval to 346
+0318.676 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 20 (6361) files added so far); re-opening (prior size: 32691.7 KB)
+0321.011 (0) The time we have been running (321) is approaching the resumption interval (346) - increasing resumption interval to 352
+0323.497 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 22 (6383) files added so far); re-opening (prior size: 33300.1 KB)
+0325.871 (0) The time we have been running (325.9) is approaching the resumption interval (352) - increasing resumption interval to 356
+0326.460 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6400 files added (on-disk size: 33563.9 KB)
+0328.449 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 24 (6407) files added so far); re-opening (prior size: 33563.9 KB)
+0329.856 (0) The time we have been running (329.8) is approaching the resumption interval (356) - increasing resumption interval to 360
+0332.717 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 21 (6428) files added so far); re-opening (prior size: 34714.4 KB)
+0334.219 (0) The time we have been running (334.2) is approaching the resumption interval (360) - increasing resumption interval to 365
+0336.831 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 20 (6448) files added so far); re-opening (prior size: 34882.3 KB)
+0338.125 (0) The time we have been running (338.1) is approaching the resumption interval (365) - increasing resumption interval to 369
+0340.451 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 14 (6462) files added so far); re-opening (prior size: 35022.2 KB)
+0342.209 (0) The time we have been running (342.2) is approaching the resumption interval (369) - increasing resumption interval to 373
+0344.957 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 15 (6477) files added so far); re-opening (prior size: 35079.3 KB)
+0346.240 (0) The time we have been running (346.2) is approaching the resumption interval (373) - increasing resumption interval to 377
+0348.541 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 13 (6490) files added so far); re-opening (prior size: 35110.8 KB)
+0350.147 (0) The time we have been running (350.1) is approaching the resumption interval (377) - increasing resumption interval to 381
+0352.905 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (6498) files added so far); re-opening (prior size: 35149.8 KB)
+0354.208 (0) The time we have been running (354.2) is approaching the resumption interval (381) - increasing resumption interval to 385
+0354.778 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6500 files added (on-disk size: 35158.5 KB)
+0356.428 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 8 (6506) files added so far); re-opening (prior size: 35158.5 KB)
+0358.017 (0) The time we have been running (358) is approaching the resumption interval (385) - increasing resumption interval to 389
+0360.803 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (6512) files added so far); re-opening (prior size: 35177.8 KB)
+0362.178 (0) The time we have been running (362.2) is approaching the resumption interval (389) - increasing resumption interval to 393
+0364.716 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 4 (6516) files added so far); re-opening (prior size: 35182.7 KB)
+0366.458 (0) The time we have been running (366.4) is approaching the resumption interval (393) - increasing resumption interval to 397
+0370.077 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 6 (6522) files added so far); re-opening (prior size: 35303.7 KB)
+0371.822 (0) The time we have been running (371.8) is approaching the resumption interval (397) - increasing resumption interval to 402
+0375.120 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 4 (6526) files added so far); re-opening (prior size: 35574.3 KB)
+0376.976 (0) The time we have been running (377) is approaching the resumption interval (402) - increasing resumption interval to 407
+0379.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 3 (6529) files added so far); re-opening (prior size: 35843 KB)
+0381.285 (0) The time we have been running (381.3) is approaching the resumption interval (407) - increasing resumption interval to 412
+0383.729 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (6531) files added so far); re-opening (prior size: 35882 KB)
+0385.635 (0) The time we have been running (385.6) is approaching the resumption interval (412) - increasing resumption interval to 416
+0389.002 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6535) files added so far); re-opening (prior size: 35884 KB)
+0390.736 (0) The time we have been running (390.7) is approaching the resumption interval (416) - increasing resumption interval to 421
+0393.894 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6539) files added so far); re-opening (prior size: 35895.6 KB)
+0395.623 (0) The time we have been running (395.6) is approaching the resumption interval (421) - increasing resumption interval to 426
+0398.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6543) files added so far); re-opening (prior size: 35921.3 KB)
+0400.722 (0) The time we have been running (400.7) is approaching the resumption interval (426) - increasing resumption interval to 431
+0403.913 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 4 (6547) files added so far); re-opening (prior size: 35928.9 KB)
+0405.892 (0) The time we have been running (405.9) is approaching the resumption interval (431) - increasing resumption interval to 436
+0408.722 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 3 (6550) files added so far); re-opening (prior size: 36021 KB)
+0410.403 (0) The time we have been running (410.4) is approaching the resumption interval (436) - increasing resumption interval to 441
+0413.931 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (6555) files added so far); re-opening (prior size: 36047.1 KB)
+0415.623 (0) The time we have been running (415.6) is approaching the resumption interval (441) - increasing resumption interval to 446
+0418.893 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6560) files added so far); re-opening (prior size: 36075.7 KB)
+0420.387 (0) The time we have been running (420.4) is approaching the resumption interval (446) - increasing resumption interval to 451
+0422.527 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6563) files added so far); re-opening (prior size: 36085.2 KB)
+0423.932 (0) The time we have been running (423.9) is approaching the resumption interval (451) - increasing resumption interval to 454
+0426.566 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6567) files added so far); re-opening (prior size: 36088.4 KB)
+0427.855 (0) The time we have been running (427.8) is approaching the resumption interval (454) - increasing resumption interval to 458
+0430.446 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 6 (6573) files added so far); re-opening (prior size: 36130.4 KB)
+0432.420 (0) The time we have been running (432.4) is approaching the resumption interval (458) - increasing resumption interval to 463
+0435.785 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 7 (6580) files added so far); re-opening (prior size: 36149.8 KB)
+0437.140 (0) The time we have been running (437.1) is approaching the resumption interval (463) - increasing resumption interval to 468
+0439.977 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (6585) files added so far); re-opening (prior size: 36172.4 KB)
+0441.533 (0) The time we have been running (441.5) is approaching the resumption interval (468) - increasing resumption interval to 472
+0444.661 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 6 (6591) files added so far); re-opening (prior size: 36190.4 KB)
+0446.567 (0) The time we have been running (446.6) is approaching the resumption interval (472) - increasing resumption interval to 477
+0449.541 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (6597) files added so far); re-opening (prior size: 36219.5 KB)
+0450.968 (0) The time we have been running (451) is approaching the resumption interval (477) - increasing resumption interval to 481
+0453.086 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6600 files added (on-disk size: 36233.1 KB)
+0453.638 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6601) files added so far); re-opening (prior size: 36233.1 KB)
+0455.186 (0) The time we have been running (455.2) is approaching the resumption interval (481) - increasing resumption interval to 486
+0457.813 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6605) files added so far); re-opening (prior size: 36241.8 KB)
+0459.286 (0) The time we have been running (459.3) is approaching the resumption interval (486) - increasing resumption interval to 490
+0461.650 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6609) files added so far); re-opening (prior size: 36266.1 KB)
+0463.029 (0) The time we have been running (463) is approaching the resumption interval (490) - increasing resumption interval to 494
+0465.809 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6613) files added so far); re-opening (prior size: 36283.8 KB)
+0467.337 (0) The time we have been running (467.3) is approaching the resumption interval (494) - increasing resumption interval to 498
+0469.435 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6616) files added so far); re-opening (prior size: 36297.5 KB)
+0471.608 (0) The time we have been running (471.6) is approaching the resumption interval (498) - increasing resumption interval to 502
+0474.675 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 4 (6620) files added so far); re-opening (prior size: 36305.7 KB)
+0476.168 (0) The time we have been running (476.2) is approaching the resumption interval (502) - increasing resumption interval to 507
+0478.520 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6623) files added so far); re-opening (prior size: 36345.4 KB)
+0480.231 (0) The time we have been running (480.2) is approaching the resumption interval (507) - increasing resumption interval to 511
+0482.768 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6627) files added so far); re-opening (prior size: 36349.3 KB)
+0484.379 (0) The time we have been running (484.4) is approaching the resumption interval (511) - increasing resumption interval to 515
+0486.489 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6630) files added so far); re-opening (prior size: 36353.5 KB)
+0487.949 (0) The time we have been running (487.9) is approaching the resumption interval (515) - increasing resumption interval to 518
+0490.667 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (6635) files added so far); re-opening (prior size: 36355.8 KB)
+0492.682 (0) The time we have been running (492.7) is approaching the resumption interval (518) - increasing resumption interval to 523
+0495.806 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6639) files added so far); re-opening (prior size: 36369.7 KB)
+0497.215 (0) The time we have been running (497.2) is approaching the resumption interval (523) - increasing resumption interval to 528
+0499.509 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 3 (6642) files added so far); re-opening (prior size: 36387.5 KB)
+0500.602 (0) The time we have been running (500.6) is approaching the resumption interval (528) - increasing resumption interval to 531
+0503.775 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6647) files added so far); re-opening (prior size: 36399.1 KB)
+0504.901 (0) The time we have been running (504.9) is approaching the resumption interval (531) - increasing resumption interval to 535
+0507.481 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6652) files added so far); re-opening (prior size: 36412.7 KB)
+0509.109 (0) The time we have been running (509.1) is approaching the resumption interval (535) - increasing resumption interval to 540
+0511.947 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6657) files added so far); re-opening (prior size: 36421.7 KB)
+0513.302 (0) The time we have been running (513.3) is approaching the resumption interval (540) - increasing resumption interval to 544
+0515.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 7 (6664) files added so far); re-opening (prior size: 36426.9 KB)
+0517.125 (0) The time we have been running (517.1) is approaching the resumption interval (544) - increasing resumption interval to 548
+0519.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 6 (6670) files added so far); re-opening (prior size: 36435.4 KB)
+0521.203 (0) The time we have been running (521.2) is approaching the resumption interval (548) - increasing resumption interval to 552
+0523.510 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (6675) files added so far); re-opening (prior size: 36453.6 KB)
+0525.420 (0) The time we have been running (525.4) is approaching the resumption interval (552) - increasing resumption interval to 556
+0528.896 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 9 (6684) files added so far); re-opening (prior size: 36471.3 KB)
+0530.159 (0) The time we have been running (530.1) is approaching the resumption interval (556) - increasing resumption interval to 561
+0532.774 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6687) files added so far); re-opening (prior size: 36494.7 KB)
+0534.438 (0) The time we have been running (534.4) is approaching the resumption interval (561) - increasing resumption interval to 565
+0537.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6692) files added so far); re-opening (prior size: 36504.2 KB)
+0539.215 (0) The time we have been running (539.2) is approaching the resumption interval (565) - increasing resumption interval to 570
+0541.436 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6695) files added so far); re-opening (prior size: 36510.9 KB)
+0542.921 (0) The time we have been running (542.9) is approaching the resumption interval (570) - increasing resumption interval to 573
+0545.717 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6699) files added so far); re-opening (prior size: 36518.7 KB)
+0547.205 (0) The time we have been running (547.2) is approaching the resumption interval (573) - increasing resumption interval to 578
+0547.689 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6700 files added (on-disk size: 36526.7 KB)
+0549.586 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6704) files added so far); re-opening (prior size: 36526.7 KB)
+0550.875 (0) The time we have been running (550.9) is approaching the resumption interval (578) - increasing resumption interval to 581
+0553.555 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6709) files added so far); re-opening (prior size: 36536.1 KB)
+0555.207 (0) The time we have been running (555.2) is approaching the resumption interval (581) - increasing resumption interval to 586
+0557.937 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6714) files added so far); re-opening (prior size: 36544.7 KB)
+0559.388 (0) The time we have been running (559.4) is approaching the resumption interval (586) - increasing resumption interval to 590
+0559.392 (0) The scheduled resumption is within 45 seconds - will reschedule
+0559.396 (0) Rescheduling resumption 1: moving to 635 seconds from now (1673461465)
+0559.401 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 590 + 45 = 635
+0561.910 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6718) files added so far); re-opening (prior size: 36559 KB)
+0565.677 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6721) files added so far); re-opening (prior size: 36568.4 KB)
+0569.791 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6726) files added so far); re-opening (prior size: 36573 KB)
+0574.504 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6731) files added so far); re-opening (prior size: 36580.9 KB)
+0578.512 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6734) files added so far); re-opening (prior size: 36592.8 KB)
+0582.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6737) files added so far); re-opening (prior size: 36596.7 KB)
+0586.617 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6741) files added so far); re-opening (prior size: 36602.1 KB)
+0590.867 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6746) files added so far); re-opening (prior size: 36612 KB)
+0595.495 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6750) files added so far); re-opening (prior size: 36621 KB)
+0599.731 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6754) files added so far); re-opening (prior size: 36624.9 KB)
+0603.843 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6758) files added so far); re-opening (prior size: 36632.3 KB)
+0605.953 (0) The time we have been running (605.9) is approaching the resumption interval (635) - increasing resumption interval to 636
+0608.672 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6762) files added so far); re-opening (prior size: 36637.9 KB)
+0610.092 (0) The time we have been running (610.1) is approaching the resumption interval (636) - increasing resumption interval to 641
+0612.426 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6765) files added so far); re-opening (prior size: 36645 KB)
+0613.863 (0) The time we have been running (613.9) is approaching the resumption interval (641) - increasing resumption interval to 644
+0616.666 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6770) files added so far); re-opening (prior size: 36650.6 KB)
+0618.340 (0) The time we have been running (618.3) is approaching the resumption interval (644) - increasing resumption interval to 649
+0620.566 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6773) files added so far); re-opening (prior size: 36654.2 KB)
+0622.248 (0) The time we have been running (622.2) is approaching the resumption interval (649) - increasing resumption interval to 653
+0624.819 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6776) files added so far); re-opening (prior size: 36656.4 KB)
+0627.356 (0) The time we have been running (627.3) is approaching the resumption interval (653) - increasing resumption interval to 658
+0629.620 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (6778) files added so far); re-opening (prior size: 36662.6 KB)
+0632.961 (0) The time we have been running (633) is approaching the resumption interval (658) - increasing resumption interval to 663
+0635.573 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6781) files added so far); re-opening (prior size: 36665.4 KB)
+0638.520 (0) The time we have been running (638.5) is approaching the resumption interval (663) - increasing resumption interval to 669
+0641.438 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (6783) files added so far); re-opening (prior size: 36668 KB)
+0645.284 (0) The time we have been running (645.3) is approaching the resumption interval (669) - increasing resumption interval to 676
+0648.153 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (6785) files added so far); re-opening (prior size: 36669 KB)
+0650.768 (0) The time we have been running (650.8) is approaching the resumption interval (676) - increasing resumption interval to 681
+0653.640 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (6787) files added so far); re-opening (prior size: 36670.2 KB)
+0657.159 (0) The time we have been running (657.2) is approaching the resumption interval (681) - increasing resumption interval to 688
+0659.757 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6790) files added so far); re-opening (prior size: 36671.4 KB)
+0662.276 (0) The time we have been running (662.3) is approaching the resumption interval (688) - increasing resumption interval to 693
+0664.582 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6793) files added so far); re-opening (prior size: 36673.2 KB)
+0666.923 (0) The time we have been running (666.9) is approaching the resumption interval (693) - increasing resumption interval to 697
+0669.768 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6797) files added so far); re-opening (prior size: 36674.9 KB)
+0672.092 (0) The time we have been running (672.1) is approaching the resumption interval (697) - increasing resumption interval to 703
+0672.641 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6800 files added (on-disk size: 36677.9 KB)
+0674.616 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 7 (6804) files added so far); re-opening (prior size: 36677.9 KB)
+0677.038 (0) The time we have been running (677) is approaching the resumption interval (703) - increasing resumption interval to 708
+0679.966 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (6808) files added so far); re-opening (prior size: 36681.7 KB)
+0682.342 (0) The time we have been running (682.3) is approaching the resumption interval (708) - increasing resumption interval to 713
+0684.963 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (6814) files added so far); re-opening (prior size: 36683.7 KB)
+0687.336 (0) The time we have been running (687.3) is approaching the resumption interval (713) - increasing resumption interval to 718
+0689.692 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 8 (6822) files added so far); re-opening (prior size: 36689.7 KB)
+0692.140 (0) The time we have been running (692.1) is approaching the resumption interval (718) - increasing resumption interval to 723
+0694.444 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (6825) files added so far); re-opening (prior size: 36708.7 KB)
+0696.782 (0) The time we have been running (696.8) is approaching the resumption interval (723) - increasing resumption interval to 727
+0699.646 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (6831) files added so far); re-opening (prior size: 36712.7 KB)
+0701.971 (0) The time we have been running (702) is approaching the resumption interval (727) - increasing resumption interval to 732
+0704.480 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6836) files added so far); re-opening (prior size: 36717.8 KB)
+0706.814 (0) The time we have been running (706.8) is approaching the resumption interval (732) - increasing resumption interval to 737
+0709.478 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (6842) files added so far); re-opening (prior size: 36722.8 KB)
+0711.585 (0) The time we have been running (711.6) is approaching the resumption interval (737) - increasing resumption interval to 742
+0714.783 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (6850) files added so far); re-opening (prior size: 36727.5 KB)
+0717.243 (0) The time we have been running (717.2) is approaching the resumption interval (742) - increasing resumption interval to 748
+0719.799 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (6858) files added so far); re-opening (prior size: 36734.9 KB)
+0722.412 (0) The time we have been running (722.4) is approaching the resumption interval (748) - increasing resumption interval to 753
+0725.662 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (6863) files added so far); re-opening (prior size: 36739.7 KB)
+0727.838 (0) The time we have been running (727.8) is approaching the resumption interval (753) - increasing resumption interval to 758
+0730.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (6869) files added so far); re-opening (prior size: 36744.4 KB)
+0732.992 (0) The time we have been running (733) is approaching the resumption interval (758) - increasing resumption interval to 763
+0735.724 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (6877) files added so far); re-opening (prior size: 36747.6 KB)
+0738.243 (0) The time we have been running (738.2) is approaching the resumption interval (763) - increasing resumption interval to 769
+0741.171 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 9 (6886) files added so far); re-opening (prior size: 36752.3 KB)
+0743.768 (0) The time we have been running (743.8) is approaching the resumption interval (769) - increasing resumption interval to 774
+0746.950 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 12 (6898) files added so far); re-opening (prior size: 36761 KB)
+0749.384 (0) The time we have been running (749.4) is approaching the resumption interval (774) - increasing resumption interval to 780
+0750.048 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 6900 files added (on-disk size: 36770.7 KB)
+0751.721 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 12 (6910) files added so far); re-opening (prior size: 36770.7 KB)
+0753.697 (0) The time we have been running (753.7) is approaching the resumption interval (780) - increasing resumption interval to 784
+0756.918 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 16 (6926) files added so far); re-opening (prior size: 36782.8 KB)
+0759.026 (0) The time we have been running (759) is approaching the resumption interval (784) - increasing resumption interval to 790
+0761.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 17 (6943) files added so far); re-opening (prior size: 36799.6 KB)
+0764.256 (0) The time we have been running (764.2) is approaching the resumption interval (790) - increasing resumption interval to 795
+0766.417 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 18 (6961) files added so far); re-opening (prior size: 36892.1 KB)
+0768.878 (0) The time we have been running (768.9) is approaching the resumption interval (795) - increasing resumption interval to 799
+0771.784 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 20 (6981) files added so far); re-opening (prior size: 37137.6 KB)
+0773.171 (0) The time we have been running (773.2) is approaching the resumption interval (799) - increasing resumption interval to 804
+0775.845 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 16 (6997) files added so far); re-opening (prior size: 37230.6 KB)
+0778.295 (0) The time we have been running (778.3) is approaching the resumption interval (804) - increasing resumption interval to 809
+0778.831 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.tmp: 7000 files added (on-disk size: 37286.1 KB)
+0780.533 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 15 (7012) files added so far); re-opening (prior size: 37286.1 KB)
+0782.983 (0) The time we have been running (783) is approaching the resumption interval (809) - increasing resumption interval to 813
+0785.925 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 18 (7030) files added so far); re-opening (prior size: 37310.9 KB)
+0788.288 (0) The time we have been running (788.3) is approaching the resumption interval (813) - increasing resumption interval to 819
+0790.816 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 19 (7049) files added so far); re-opening (prior size: 37334.8 KB)
+0793.443 (0) The time we have been running (793.4) is approaching the resumption interval (819) - increasing resumption interval to 824
+0796.855 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 23 (7072) files added so far); re-opening (prior size: 37377.1 KB)
+0799.453 (0) The time we have been running (799.4) is approaching the resumption interval (824) - increasing resumption interval to 830
+0802.225 (0) The time we have been running (802.2) is approaching the resumption interval (830) - increasing resumption interval to 833
+0802.776 (0) Creating zip file manifest (backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.list-temp.tmp)
+0802.909 (0) Successfully created zip file manifest (size: 580047)
+0803.592 (0) Created plugins zip (0) - 37441 KB in 803.5 s (46.6 KB/s) (sha1: 51fbb0c085719d42237cf2b2d472beed9cc7a01f, sha256: 0be037a017f627374f57448fbe8e8f724b66c415d181cfc9bf95948c249cbd23)
+0803.605 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0803.607 (0) No remote despatch: user chose no remote backup service
+0803.610 (0) Recording as successfully uploaded: backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip
+0803.615 (0) Deleting zip manifest (backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip.list.tmp)
+0803.623 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0803.625 (0) Number of backup sets in history: 0; groups (db): 1
+0803.628 (0) Number of backup sets in history: 0; groups (files): 1
+0803.630 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0803.644 (0) Beginning creation of dump of themes (split every: 400 MB)
+0804.484 (0) Total entities for the zip file: 196 directories, 971 files (0 skipped as non-modified), 21.9 MB
+0804.639 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0804.792 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0804.932 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0805.152 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0805.312 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0805.457 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0805.629 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0805.815 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0806.012 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0811.760 (0) The time we have been running (811.8) is approaching the resumption interval (833) - increasing resumption interval to 842
+0811.882 (0) Creating zip file manifest (backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.list-temp.tmp)
+0811.909 (0) Successfully created zip file manifest (size: 69553)
+0812.167 (0) Created themes zip (0) - 13887.2 KB in 8.5 s (1630.7 KB/s) (sha1: 66da91f84deea4840c6d2f38ec9806283d604db3, sha256: c59d3a615dc85bb9b34e2021b33e7695749dd544aba90cf2f36c0433ef3d133c)
+0812.185 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0812.187 (0) No remote despatch: user chose no remote backup service
+0812.188 (0) Recording as successfully uploaded: backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip
+0812.193 (0) Deleting zip manifest (backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip.list.tmp)
+0812.199 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0812.202 (0) Number of backup sets in history: 0; groups (db): 1
+0812.204 (0) Number of backup sets in history: 0; groups (files): 1
+0812.206 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0812.219 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0812.221 (0) Looking for candidates to backup in: C:\xampp\htdocs\newspaper/wp-content/uploads
+0812.224 (0) finding files: 2022: adding to list (1)
+0812.226 (0) finding files: 2023: adding to list (2)
+0812.229 (0) finding files: alm_templates: adding to list (3)
+0812.232 (0) finding files: elementor: adding to list (4)
+0812.234 (0) finding files: nsl_avatars: adding to list (5)
+0812.237 (0) finding files: ultp: adding to list (6)
+0812.239 (0) finding files: wpcf7_uploads: adding to list (7)
+0812.242 (0) finding files: wpforms: adding to list (8)
+0812.244 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0812.495 (0) Total entities for the zip file: 15 directories, 312 files (0 skipped as non-modified), 51.2 MB
+0812.655 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0812.729 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 312 files batched, 142 (142) added so far); re-opening (prior size: 0 KB)
+0813.692 (0) The time we have been running (813.7) is approaching the resumption interval (842) - increasing resumption interval to 844
+0813.696 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 2.3 s, rate: 11253.6 KB/s)
+0813.699 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2902419567108, normalised_time=2.2748289113203, max_time=813.69564986229, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0815.564 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip.tmp: 200 files added (on-disk size: 25792.4 KB)
+0816.461 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (21.1 MB, 81 (223) files added so far); re-opening (prior size: 25792.4 KB)
+0817.549 (0) The time we have been running (817.5) is approaching the resumption interval (844) - increasing resumption interval to 848
+0818.372 (0) Zip: backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip.tmp: 300 files added (on-disk size: 47364.5 KB)
+0819.942 (0) The time we have been running (819.9) is approaching the resumption interval (848) - increasing resumption interval to 850
+0819.948 (0) Creating zip file manifest (backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip.list-temp.tmp)
+0819.958 (0) Successfully created zip file manifest (size: 19060)
+0821.051 (0) Created uploads zip (0) - 52034.5 KB in 8.8 s (5914.1 KB/s) (sha1: a10492da670a355ec77f3f6d1b15166dbee51d1d, sha256: d66d6323cc32b96d5be136682d99bc90a3740fbd84ee3414110755cb86372137)
+0821.059 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0821.061 (0) No remote despatch: user chose no remote backup service
+0821.062 (0) Recording as successfully uploaded: backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip
+0821.064 (0) Deleting zip manifest (backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip.list.tmp)
+0821.068 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0821.070 (0) Number of backup sets in history: 0; groups (db): 1
+0821.071 (0) Number of backup sets in history: 0; groups (files): 1
+0821.072 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0821.080 (0) Beginning backup of other directories found in the content directory (index: 0)
+0821.082 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0821.083 (0) Looking for candidates to backup in: C:\xampp\htdocs\newspaper/wp-content
+0821.084 (0) finding files: fonts: adding to list (1)
+0821.085 (0) finding files: index.php: adding to list (2)
+0821.086 (0) finding files: plugins: skipping: this is the plugins directory
+0821.087 (0) finding files: themes: skipping: this is the themes directory
+0821.088 (0) finding files: updraft: skipping: this is the updraft directory
+0821.090 (0) finding files: upgrade: skipping: excluded by options
+0821.091 (0) finding files: uploads: skipping: this is the uploads directory
+0821.092 (0) finding files: wflogs: adding to list (3)
+0821.114 (0) Total entities for the zip file: 3 directories, 24 files (0 skipped as non-modified), 7.5 MB
+0826.430 (0) The time we have been running (826.4) is approaching the resumption interval (850) - increasing resumption interval to 857
+0826.442 (0) Creating zip file manifest (backup_2023-01-11-1804_Shift_32715fae12b4-others.zip.list-temp.tmp)
+0826.447 (0) Successfully created zip file manifest (size: 1117)
+0826.550 (0) Created others zip (0) - 3710.8 KB in 5.5 s (680.8 KB/s) (sha1: 9f97c6d0f356fa2b255be37d7a79a182454e7cdf, sha256: 355329e8e1e3667ccdea8db35756b675fb1d96ccb5dac9f436f11d61f3dc26b9)
+0826.565 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0826.568 (0) No remote despatch: user chose no remote backup service
+0826.570 (0) Recording as successfully uploaded: backup_2023-01-11-1804_Shift_32715fae12b4-others.zip
+0826.575 (0) Deleting zip manifest (backup_2023-01-11-1804_Shift_32715fae12b4-others.zip.list.tmp)
+0826.582 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0826.584 (0) Number of backup sets in history: 0; groups (db): 1
+0826.586 (0) Number of backup sets in history: 0; groups (files): 1
+0826.589 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0826.607 (0) Saving backup status to database (elements: 8)
+0826.612 (0) Beginning creation of database dump (WordPress DB)
+0826.616 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0826.788 (0) Table np_options: Total expected rows (via COUNT): 543
+0826.874 (0) Table np_options: Rows added in this batch (next record: 3273): 539 (uncompressed bytes in this segment=1741410) in 0.15 seconds
+0826.888 (0) Table np_options: finishing file(s) (2, 330.1 KB)
+0826.919 (0) Table np_users: Total expected rows (via COUNT): 2
+0826.921 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0826.927 (0) Table np_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1580) in 0.03 seconds
+0826.938 (0) Table np_users: finishing file(s) (2, 0.7 KB)
+0826.974 (0) Table np_usermeta: Total expected rows (via COUNT): 57
+0826.976 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0826.988 (0) Table np_usermeta: Rows added in this batch (next record: 77): 57 (uncompressed bytes in this segment=5066) in 0.04 seconds
+0827.010 (0) The time we have been running (827) is approaching the resumption interval (857) - increasing resumption interval to 858
+0827.019 (0) Table np_usermeta: finishing file(s) (2, 2 KB)
+0827.087 (0) Table np_actionscheduler_actions: Total expected rows (via COUNT): 22
+0827.090 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.096 (0) Table np_actionscheduler_actions: Rows added in this batch (next record: 504): 22 (uncompressed bytes in this segment=10969) in 0.06 seconds
+0827.112 (0) Table np_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+0827.146 (0) Table np_actionscheduler_claims: Total expected rows (via COUNT): 0
+0827.150 (0) Table np_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.03 seconds
+0827.168 (0) Table np_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0827.223 (0) Table np_actionscheduler_groups: Total expected rows (via COUNT): 3
+0827.226 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.232 (0) Table np_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=728) in 0.05 seconds
+0827.256 (0) Table np_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0827.309 (0) Table np_actionscheduler_logs: Total expected rows (via COUNT): 56
+0827.311 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.319 (0) Table np_actionscheduler_logs: Rows added in this batch (next record: 104): 56 (uncompressed bytes in this segment=5677) in 0.05 seconds
+0827.333 (0) Table np_actionscheduler_logs: finishing file(s) (2, 1 KB)
+0827.369 (0) Table np_commentmeta: Total expected rows (via COUNT): 0
+0827.373 (0) Table np_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.03 seconds
+0827.392 (0) Table np_commentmeta: finishing file(s) (2, 0.4 KB)
+0827.439 (0) Table np_comments: Total expected rows (via COUNT): 0
+0827.447 (0) Table np_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1714) in 0.04 seconds
+0827.469 (0) Table np_comments: finishing file(s) (2, 0.5 KB)
+0827.519 (0) Table np_links: Total expected rows (via COUNT): 0
+0827.522 (0) Table np_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.02 seconds
+0827.536 (0) Table np_links: finishing file(s) (2, 0.5 KB)
+0827.595 (0) Table np_postmeta: Total expected rows (approximate): 2079
+0827.633 (0) Table np_postmeta: Rows added in this batch (next record: 3976): 2344 (uncompressed bytes in this segment=680503) in 0.09 seconds
+0827.649 (0) Table np_postmeta: finishing file(s) (2, 51.2 KB)
+0827.693 (0) Table np_posts: Total expected rows (via COUNT): 409
+0827.694 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.724 (0) Table np_posts: Rows added in this batch (next record: 604): 409 (uncompressed bytes in this segment=453388) in 0.07 seconds
+0827.739 (0) Table np_posts: finishing file(s) (2, 40 KB)
+0827.773 (0) Table np_term_relationships: Total expected rows (approximate): 108
+0827.780 (0) Table np_term_relationships: Rows added in this batch (next record: 100000): 108 (uncompressed bytes in this segment=2237) in 0.03 seconds
+0827.792 (0) Table np_term_relationships: finishing file(s) (2, 0.7 KB)
+0827.825 (0) Table np_term_taxonomy: Total expected rows (via COUNT): 37
+0827.827 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.832 (0) Table np_term_taxonomy: Rows added in this batch (next record: 41): 37 (uncompressed bytes in this segment=2220) in 0.03 seconds
+0827.845 (0) Table np_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0827.876 (0) Table np_termmeta: Total expected rows (via COUNT): 0
+0827.880 (0) Table np_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.03 seconds
+0827.891 (0) Table np_termmeta: finishing file(s) (2, 0.4 KB)
+0827.924 (0) Table np_terms: Total expected rows (via COUNT): 37
+0827.926 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.930 (0) Table np_terms: Rows added in this batch (next record: 41): 37 (uncompressed bytes in this segment=1887) in 0.03 seconds
+0827.939 (0) Table np_terms: finishing file(s) (2, 0.8 KB)
+0827.970 (0) Table np_alm: Total expected rows (via COUNT): 1
+0827.971 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0827.975 (0) Table np_alm: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=911) in 0.03 seconds
+0827.989 (0) Table np_alm: finishing file(s) (2, 0.5 KB)
+0828.036 (0) Table np_e_events: Total expected rows (via COUNT): 10
+0828.038 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0828.040 (0) Table np_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2566) in 0.03 seconds
+0828.049 (0) The time we have been running (828) is approaching the resumption interval (858) - increasing resumption interval to 859
+0828.058 (0) Table np_e_events: finishing file(s) (2, 0.7 KB)
+0828.100 (0) Table np_e_submissions: Total expected rows (via COUNT): 0
+0828.105 (0) Table np_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2289) in 0.04 seconds
+0828.117 (0) Table np_e_submissions: finishing file(s) (2, 0.7 KB)
+0828.163 (0) Table np_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0828.165 (0) Table np_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1264) in 0.03 seconds
+0828.179 (0) Table np_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0828.226 (0) Table np_e_submissions_values: Total expected rows (via COUNT): 0
+0828.228 (0) Table np_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.03 seconds
+0828.242 (0) Table np_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0828.287 (0) Table np_litespeed_url: Total expected rows (via COUNT): 0
+0828.290 (0) Table np_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.03 seconds
+0828.302 (0) Table np_litespeed_url: finishing file(s) (2, 0.4 KB)
+0828.330 (0) Table np_litespeed_url_file: Total expected rows (via COUNT): 0
+0828.333 (0) Table np_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.02 seconds
+0828.344 (0) Table np_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0828.383 (0) Table np_social_users: Total expected rows (via COUNT): 1
+0828.385 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0828.389 (0) Table np_social_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=940) in 0.03 seconds
+0828.402 (0) Table np_social_users: finishing file(s) (2, 0.5 KB)
+0828.427 (0) Table np_wfblockediplog: Total expected rows (approximate): 0
+0828.434 (0) Table np_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=627) in 0.03 seconds
+0828.447 (0) Table np_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0828.481 (0) Table np_wfblocks7: Total expected rows (via COUNT): 0
+0828.484 (0) Table np_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.03 seconds
+0828.498 (0) Table np_wfblocks7: finishing file(s) (2, 0.4 KB)
+0828.527 (0) Table np_wfconfig: Total expected rows (approximate): 260
+0828.754 (0) Table np_wfconfig: Rows added in this batch (next record: 1000): 262 (uncompressed bytes in this segment=3072580) in 0.25 seconds
+0828.769 (0) Table np_wfconfig: finishing file(s) (2, 1674.3 KB)
+0828.797 (0) Table np_wfcrawlers: Total expected rows (approximate): 0
+0828.800 (0) Table np_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=552) in 0.02 seconds
+0828.816 (0) Table np_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0828.865 (0) Table np_wffilechanges: Total expected rows (approximate): 0
+0828.869 (0) Table np_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.03 seconds
+0828.888 (0) Table np_wffilechanges: finishing file(s) (2, 0.3 KB)
+0828.927 (0) Table np_wffilemods: Total expected rows (approximate): 9143
+0829.308 (0) Table np_wffilemods: Rows added in this batch (next record: 12000): 8898 (uncompressed bytes in this segment=3286415) in 0.41 seconds
+0829.323 (0) The time we have been running (829.3) is approaching the resumption interval (859) - increasing resumption interval to 860
+0829.335 (0) Table np_wffilemods: finishing file(s) (2, 987.2 KB)
+0829.365 (0) Table np_wfhits: Total expected rows (via COUNT): 1
+0829.367 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0829.372 (0) Table np_wfhits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1411) in 0.03 seconds
+0829.385 (0) Table np_wfhits: finishing file(s) (2, 0.7 KB)
+0829.420 (0) Table np_wfhoover: Total expected rows (via COUNT): 0
+0829.427 (0) Table np_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.03 seconds
+0829.440 (0) Table np_wfhoover: finishing file(s) (2, 0.3 KB)
+0829.479 (0) Table np_wfissues: Total expected rows (via COUNT): 3
+0829.482 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0829.489 (0) Table np_wfissues: Rows added in this batch (next record: 18): 3 (uncompressed bytes in this segment=3646) in 0.04 seconds
+0829.507 (0) Table np_wfissues: finishing file(s) (2, 1.6 KB)
+0829.566 (0) Table np_wfknownfilelist: Total expected rows (approximate): 9318
+0829.676 (0) Table np_wfknownfilelist: Rows added in this batch (next record: 9203): 9203 (uncompressed bytes in this segment=1681170) in 0.14 seconds
+0829.692 (0) Table np_wfknownfilelist: finishing file(s) (2, 136.6 KB)
+0829.728 (0) Table np_wflivetraffichuman: Total expected rows (approximate): 0
+0829.732 (0) Table np_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.03 seconds
+0829.744 (0) Table np_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0829.774 (0) Table np_wflocs: Total expected rows (approximate): 0
+0829.780 (0) Table np_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.03 seconds
+0829.797 (0) Table np_wflocs: finishing file(s) (2, 0.4 KB)
+0829.827 (0) Table np_wflogins: Total expected rows (via COUNT): 1
+0829.829 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0829.834 (0) Table np_wflogins: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=966) in 0.03 seconds
+0829.844 (0) Table np_wflogins: finishing file(s) (2, 0.6 KB)
+0829.876 (0) Table np_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0829.882 (0) Table np_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.03 seconds
+0829.898 (0) Table np_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0829.935 (0) Table np_wfls_settings: Total expected rows (approximate): 24
+0829.939 (0) Table np_wfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1818) in 0.03 seconds
+0829.952 (0) Table np_wfls_settings: finishing file(s) (2, 0.9 KB)
+0829.986 (0) Table np_wfnotifications: Total expected rows (approximate): 3
+0829.990 (0) Table np_wfnotifications: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1837) in 0.03 seconds
+0830.010 (0) The time we have been running (830) is approaching the resumption interval (860) - increasing resumption interval to 861
+0830.016 (0) Table np_wfnotifications: finishing file(s) (2, 0.9 KB)
+0830.072 (0) Table np_wfpendingissues: Total expected rows (via COUNT): 0
+0830.075 (0) Table np_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.03 seconds
+0830.088 (0) Table np_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0830.126 (0) Table np_wfreversecache: Total expected rows (approximate): 0
+0830.130 (0) Table np_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=497) in 0.03 seconds
+0830.143 (0) Table np_wfreversecache: finishing file(s) (2, 0.3 KB)
+0830.193 (0) Table np_wfsnipcache: Total expected rows (via COUNT): 0
+0830.197 (0) Table np_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.03 seconds
+0830.211 (0) Table np_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0830.246 (0) Table np_wfstatus: Total expected rows (via COUNT): 850
+0830.260 (0) Table np_wfstatus: Rows added in this batch (next record: 850): 850 (uncompressed bytes in this segment=84221) in 0.04 seconds
+0830.272 (0) Table np_wfstatus: finishing file(s) (2, 14.1 KB)
+0830.299 (0) Table np_wftrafficrates: Total expected rows (approximate): 0
+0830.303 (0) Table np_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.02 seconds
+0830.316 (0) Table np_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0830.355 (0) Table np_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0830.357 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0830.362 (0) Table np_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=900) in 0.04 seconds
+0830.377 (0) Table np_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0830.425 (0) Table np_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0830.430 (0) Table np_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=733) in 0.03 seconds
+0830.441 (0) Table np_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0830.476 (0) Table np_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0830.479 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0830.484 (0) Table np_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=760) in 0.04 seconds
+0830.500 (0) Table np_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0830.502 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\newspaper/wp-content/updraft/backup_2023-01-11-1804_Shift_32715fae12b4-db.gz (line 1924, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0830.516 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_options.table.tmpr3274.gz (1/48/fopen): adding to final database dump
+0830.552 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_options.table.gz (2/48/fopen): adding to final database dump
+0830.554 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_users.table.tmpr3.gz (3/48/fopen): adding to final database dump
+0830.559 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_users.table.gz (4/48/fopen): adding to final database dump
+0830.561 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_usermeta.table.tmpr78.gz (5/48/fopen): adding to final database dump
+0830.567 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_usermeta.table.gz (6/48/fopen): adding to final database dump
+0830.571 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_actions.table.tmpr505.gz (7/48/fopen): adding to final database dump
+0830.577 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_actions.table.gz (8/48/fopen): adding to final database dump
+0830.580 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_claims.table.tmpr0.gz (9/48/fopen): adding to final database dump
+0830.585 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_claims.table.gz (10/48/fopen): adding to final database dump
+0830.588 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_groups.table.tmpr4.gz (11/48/fopen): adding to final database dump
+0830.592 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_groups.table.gz (12/48/fopen): adding to final database dump
+0830.594 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_logs.table.tmpr105.gz (13/48/fopen): adding to final database dump
+0830.598 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_actionscheduler_logs.table.gz (14/48/fopen): adding to final database dump
+0830.600 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_commentmeta.table.tmpr0.gz (15/48/fopen): adding to final database dump
+0830.604 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_commentmeta.table.gz (16/48/fopen): adding to final database dump
+0830.605 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_comments.table.tmpr0.gz (17/48/fopen): adding to final database dump
+0830.607 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_comments.table.gz (18/48/fopen): adding to final database dump
+0830.609 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_links.table.tmpr0.gz (19/48/fopen): adding to final database dump
+0830.611 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_links.table.gz (20/48/fopen): adding to final database dump
+0830.613 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_postmeta.table.tmpr3977.gz (21/48/fopen): adding to final database dump
+0830.618 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_postmeta.table.gz (22/48/fopen): adding to final database dump
+0830.619 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_posts.table.tmpr605.gz (23/48/fopen): adding to final database dump
+0830.624 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_posts.table.gz (24/48/fopen): adding to final database dump
+0830.626 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_term_relationships.table.tmpr100001.gz (25/48/fopen): adding to final database dump
+0830.629 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_term_relationships.table.gz (26/48/fopen): adding to final database dump
+0830.631 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_term_taxonomy.table.tmpr42.gz (27/48/fopen): adding to final database dump
+0830.634 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_term_taxonomy.table.gz (28/48/fopen): adding to final database dump
+0830.635 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_termmeta.table.tmpr0.gz (29/48/fopen): adding to final database dump
+0830.638 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_termmeta.table.gz (30/48/fopen): adding to final database dump
+0830.640 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_terms.table.tmpr42.gz (31/48/fopen): adding to final database dump
+0830.643 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_terms.table.gz (32/48/fopen): adding to final database dump
+0830.645 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_alm.table.tmpr2.gz (33/48/fopen): adding to final database dump
+0830.647 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_alm.table.gz (34/48/fopen): adding to final database dump
+0830.649 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_events.table.tmpr11.gz (35/48/fopen): adding to final database dump
+0830.652 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_events.table.gz (36/48/fopen): adding to final database dump
+0830.654 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_submissions.table.tmpr0.gz (37/48/fopen): adding to final database dump
+0830.658 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_submissions.table.gz (38/48/fopen): adding to final database dump
+0830.661 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_submissions_actions_log.table.tmpr0.gz (39/48/fopen): adding to final database dump
+0830.664 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_submissions_actions_log.table.gz (40/48/fopen): adding to final database dump
+0830.667 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_submissions_values.table.tmpr0.gz (41/48/fopen): adding to final database dump
+0830.671 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_e_submissions_values.table.gz (42/48/fopen): adding to final database dump
+0830.673 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_litespeed_url.table.tmpr0.gz (43/48/fopen): adding to final database dump
+0830.676 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_litespeed_url.table.gz (44/48/fopen): adding to final database dump
+0830.679 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_litespeed_url_file.table.tmpr0.gz (45/48/fopen): adding to final database dump
+0830.682 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_litespeed_url_file.table.gz (46/48/fopen): adding to final database dump
+0830.684 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_social_users.table.tmpr2.gz (47/48/fopen): adding to final database dump
+0830.688 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_social_users.table.gz (48/48/fopen): adding to final database dump
+0830.690 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfblockediplog.table.tmpr1.gz (49/48/fopen): adding to final database dump
+0830.694 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfblockediplog.table.gz (50/48/fopen): adding to final database dump
+0830.696 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfblocks7.table.tmpr0.gz (51/48/fopen): adding to final database dump
+0830.699 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfblocks7.table.gz (52/48/fopen): adding to final database dump
+0830.701 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfconfig.table.tmpr1001.gz (53/48/fopen): adding to final database dump
+0830.835 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfconfig.table.gz (54/48/fopen): adding to final database dump
+0830.837 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfcrawlers.table.tmpr1.gz (55/48/fopen): adding to final database dump
+0830.840 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfcrawlers.table.gz (56/48/fopen): adding to final database dump
+0830.842 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wffilechanges.table.tmpr1.gz (57/48/fopen): adding to final database dump
+0830.844 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wffilechanges.table.gz (58/48/fopen): adding to final database dump
+0830.846 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wffilemods.table.tmpr12001.gz (59/48/fopen): adding to final database dump
+0830.908 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wffilemods.table.gz (60/48/fopen): adding to final database dump
+0830.909 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfhits.table.tmpr2.gz (61/48/fopen): adding to final database dump
+0830.912 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfhits.table.gz (62/48/fopen): adding to final database dump
+0830.914 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfhoover.table.tmpr0.gz (63/48/fopen): adding to final database dump
+0830.916 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfhoover.table.gz (64/48/fopen): adding to final database dump
+0830.917 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfissues.table.tmpr19.gz (65/48/fopen): adding to final database dump
+0830.920 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfissues.table.gz (66/48/fopen): adding to final database dump
+0830.921 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfknownfilelist.table.tmpr9204.gz (67/48/fopen): adding to final database dump
+0830.933 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfknownfilelist.table.gz (68/48/fopen): adding to final database dump
+0830.934 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wflivetraffichuman.table.tmpr1.gz (69/48/fopen): adding to final database dump
+0830.937 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wflivetraffichuman.table.gz (70/48/fopen): adding to final database dump
+0830.939 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wflocs.table.tmpr1.gz (71/48/fopen): adding to final database dump
+0830.941 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wflocs.table.gz (72/48/fopen): adding to final database dump
+0830.943 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wflogins.table.tmpr2.gz (73/48/fopen): adding to final database dump
+0830.945 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wflogins.table.gz (74/48/fopen): adding to final database dump
+0830.947 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfls_2fa_secrets.table.tmpr0.gz (75/48/fopen): adding to final database dump
+0830.949 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfls_2fa_secrets.table.gz (76/48/fopen): adding to final database dump
+0830.951 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfls_settings.table.tmpr1001.gz (77/48/fopen): adding to final database dump
+0830.953 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfls_settings.table.gz (78/48/fopen): adding to final database dump
+0830.955 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfnotifications.table.tmpr1001.gz (79/48/fopen): adding to final database dump
+0830.957 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfnotifications.table.gz (80/48/fopen): adding to final database dump
+0830.959 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfpendingissues.table.tmpr0.gz (81/48/fopen): adding to final database dump
+0830.961 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfpendingissues.table.gz (82/48/fopen): adding to final database dump
+0830.963 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfreversecache.table.tmpr1.gz (83/48/fopen): adding to final database dump
+0830.966 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfreversecache.table.gz (84/48/fopen): adding to final database dump
+0830.967 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfsnipcache.table.tmpr0.gz (85/48/fopen): adding to final database dump
+0830.970 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfsnipcache.table.gz (86/48/fopen): adding to final database dump
+0830.971 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfstatus.table.tmpr851.gz (87/48/fopen): adding to final database dump
+0830.974 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wfstatus.table.gz (88/48/fopen): adding to final database dump
+0830.975 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wftrafficrates.table.tmpr1.gz (89/48/fopen): adding to final database dump
+0830.978 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wftrafficrates.table.gz (90/48/fopen): adding to final database dump
+0830.979 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wpforms_tasks_meta.table.tmpr4.gz (91/48/fopen): adding to final database dump
+0830.982 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wpforms_tasks_meta.table.gz (92/48/fopen): adding to final database dump
+0830.983 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wpmailsmtp_debug_events.table.tmpr0.gz (93/48/fopen): adding to final database dump
+0830.986 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wpmailsmtp_debug_events.table.gz (94/48/fopen): adding to final database dump
+0830.987 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wpmailsmtp_tasks_meta.table.tmpr2.gz (95/48/fopen): adding to final database dump
+0830.992 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db-table-np_wpmailsmtp_tasks_meta.table.gz (96/48/fopen): adding to final database dump
+0831.076 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db.gz: finished writing out complete database file (3257.5 KB)
+0831.335 (0) Total database tables backed up: 48 (backup_2023-01-11-1804_Shift_32715fae12b4-db.gz, size: 3335812, sha1: 1ce3fe395e77d5dc2339420d76473c5b8302a82e, sha256: 8c163d0a501f55eaaa80766ef6ce3c38185b40780e0a16dac17f938bc9b8dc5e)
+0831.341 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2864, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0831.344 (0) backup_2023-01-11-1804_Shift_32715fae12b4-plugins.zip: plugins: This file has already been successfully uploaded
+0831.345 (0) backup_2023-01-11-1804_Shift_32715fae12b4-themes.zip: themes: This file has already been successfully uploaded
+0831.347 (0) backup_2023-01-11-1804_Shift_32715fae12b4-uploads.zip: uploads: This file has already been successfully uploaded
+0831.348 (0) backup_2023-01-11-1804_Shift_32715fae12b4-others.zip: others: This file has already been successfully uploaded
+0831.350 (0) backup_2023-01-11-1804_Shift_32715fae12b4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0831.352 (0) Saving backup history. Total backup size: 107.7 MB
+0831.355 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0831.359 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0831.360 (0) No remote despatch: user chose no remote backup service
+0831.361 (0) Recording as successfully uploaded: backup_2023-01-11-1804_Shift_32715fae12b4-db.gz
+0831.368 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0831.370 (0) Number of backup sets in history: 1; groups (db): 1
+0831.371 (0) Examining (for databases) backup set with group_id=0, nonce=32715fae12b4, datestamp=1673460271 (Jan 11 2023 18:04:31)
+0831.372 (0) This backup set is the backup set just made, so will not be deleted.
+0831.373 (0) Number of backup sets in history: 1; groups (files): 1
+0831.374 (0) Examining (for files) backup set with nonce=32715fae12b4, datestamp=1673460271 (Jan 11 2023 18:04:31)
+0831.374 (0) This backup set is the backup set just made, so will not be deleted.
+0831.375 (0) This backup set is the backup set just made, so will not be deleted.
+0831.375 (0) This backup set is the backup set just made, so will not be deleted.
+0831.375 (0) This backup set is the backup set just made, so will not be deleted.
+0831.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0831.377 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0831.380 (0) Resume backup (32715fae12b4, 0): finish run
+0831.385 (0) Decremented the semaphore (fd) by 1
+0831.387 (0) Semaphore (fd) unlocked
+0831.390 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0831.394 (0) No email will/can be sent - the user has not configured an email address.
+0831.395 (0) The backup apparently succeeded and is now complete
