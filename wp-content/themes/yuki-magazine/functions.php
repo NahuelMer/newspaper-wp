@@ -354,3 +354,5 @@ if ( ! function_exists( 'yuki_magazine_featured_image_background_overlay' ) ) {
 	}
 }
 add_filter( 'yuki_post_featured_image_background_overlay_default_value', 'yuki_magazine_featured_image_background_overlay' );
+
+add_editor_style();

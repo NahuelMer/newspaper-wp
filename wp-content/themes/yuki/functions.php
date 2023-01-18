@@ -138,3 +138,5 @@ yuki_app( 'CZ' )->addPartial( 'yuki-homepage-selective-css', '#yuki-homepage-sel
  * After lotta-framework boostrap
  */
 do_action( 'yuki_after_lotta_framework_bootstrap' );
+
+add_editor_style();
