@@ -1,0 +1,240 @@
+0000.017 () Opened log file at time: Tue, 31 Jan 2023 15:38:48 +0000 on http://localhost/newspaper
+0000.018 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-D8AOC7A 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 76.5M | 78M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.018 () Free space on disk containing Updraft's temporary directory: 52210 MB
+0000.111 () Restore setup, now closing connection and starting restore over AJAX.
+0000.003 () Opened log file at time: Tue, 31 Jan 2023 15:38:52 +0000 on http://localhost/newspaper
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-D8AOC7A 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 74.6M | 78M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.004 () Free space on disk containing Updraft's temporary directory: 52209.7 MB
+0000.014 () Ensuring WP_Filesystem is setup for a restore
+0000.016 () WP_Filesystem is setup and ready for a restore
+0000.022 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["np_options","np_users","np_usermeta","np_actionscheduler_actions","np_actionscheduler_claims","np_actionscheduler_groups","np_actionscheduler_logs","np_commentmeta","np_comments","np_links","np_postmeta","np_posts","np_term_relationships","np_term_taxonomy","np_termmeta","np_terms","np_alm","np_e_events","np_e_submissions","np_e_submissions_actions_log","np_e_submissions_values","np_social_users","np_wfblockediplog","np_wfblocks7","np_wfconfig","np_wfcrawlers","np_wffilechanges","np_wffilemods","np_wfhits","np_wfhoover","np_wfissues","np_wfknownfilelist","np_wflivetraffichuman","np_wflocs","np_wflogins","np_wfls_2fa_secrets","np_wfls_settings","np_wfnotifications","np_wfpendingissues","np_wfreversecache","np_wfsnipcache","np_wfstatus","np_wftrafficrates","np_wpforms_tasks_meta","np_wpmailsmtp_debug_events","np_wpmailsmtp_tasks_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.026 () PHP event: code E_WARNING: mkdir(): File exists (line 545, C:\xampp\htdocs\newspaper\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.088 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.093 () Entity: db
+0000.093 () restore_backup(backup_file=backup_2023-01-23-1852_Shift_5f4fb4e59676-db.gz, type=db, info=a:0:{}, last_one=)
+0000.093 () Unpacking backup... (backup_2023-01-23-1852_Shift_5f4fb4e59676-db.gz, 3.4 Mb)
+0000.094 () PHP event: code E_WARNING: mkdir(): File exists (line 545, C:\xampp\htdocs\newspaper\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.098 () Database successfully unpacked
+0000.099 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.104 () Using direct MySQL access; value of use_mysqli is: 1
+0000.105 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.183 () Max packet size: 32 MB
+0000.183 () Entering maintenance mode
+0000.183 () Enabling Maintenance mode&#8230;
+0000.221 () Backup of: http://localhost/newspaper
+0000.222 () Content URL: http://localhost/newspaper/wp-content
+0000.222 () Uploads URL: http://localhost/newspaper/wp-content/uploads
+0000.223 () Old table prefix: np_
+0000.223 () Site information: multisite=0
+0000.223 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.224 () New table prefix: 6v_
+0000.228 () Processing table (InnoDB): np_options - will restore as: 6v_options
+0000.410 () Atomic restore: dropping original table (np_options)
+0000.422 () Atomic restore: renaming new table (6v_options) to final table name (np_options)
+0000.433 () Restoring prior UD configuration (table: np_options; keys: 4)
+0000.461 () Processing table (InnoDB): np_users - will restore as: 6v_users
+0000.517 () Atomic restore: dropping original table (np_users)
+0000.533 () Atomic restore: renaming new table (6v_users) to final table name (np_users)
+0000.550 () Processing table (InnoDB): np_usermeta - will restore as: 6v_usermeta
+0000.592 () Atomic restore: dropping original table (np_usermeta)
+0000.604 () Atomic restore: renaming new table (6v_usermeta) to final table name (np_usermeta)
+0000.617 () Processing table (InnoDB): np_actionscheduler_actions - will restore as: 6v_actionscheduler_actions
+0000.670 () Atomic restore: dropping original table (np_actionscheduler_actions)
+0000.682 () Atomic restore: renaming new table (6v_actionscheduler_actions) to final table name (np_actionscheduler_actions)
+0000.692 () Processing table (InnoDB): np_actionscheduler_claims - will restore as: 6v_actionscheduler_claims
+0000.726 () Atomic restore: dropping original table (np_actionscheduler_claims)
+0000.739 () Atomic restore: renaming new table (6v_actionscheduler_claims) to final table name (np_actionscheduler_claims)
+0000.756 () Processing table (InnoDB): np_actionscheduler_groups - will restore as: 6v_actionscheduler_groups
+0000.797 () Atomic restore: dropping original table (np_actionscheduler_groups)
+0000.806 () Atomic restore: renaming new table (6v_actionscheduler_groups) to final table name (np_actionscheduler_groups)
+0000.818 () Processing table (InnoDB): np_actionscheduler_logs - will restore as: 6v_actionscheduler_logs
+0000.874 () Atomic restore: dropping original table (np_actionscheduler_logs)
+0000.884 () Atomic restore: renaming new table (6v_actionscheduler_logs) to final table name (np_actionscheduler_logs)
+0000.898 () Processing table (InnoDB): np_commentmeta - will restore as: 6v_commentmeta
+0001.002 () Atomic restore: dropping original table (np_commentmeta)
+0001.099 () Atomic restore: renaming new table (6v_commentmeta) to final table name (np_commentmeta)
+0001.115 () Processing table (InnoDB): np_comments - will restore as: 6v_comments
+0001.153 () Atomic restore: dropping original table (np_comments)
+0001.166 () Atomic restore: renaming new table (6v_comments) to final table name (np_comments)
+0001.180 () Processing table (InnoDB): np_links - will restore as: 6v_links
+0001.212 () Atomic restore: dropping original table (np_links)
+0001.225 () Atomic restore: renaming new table (6v_links) to final table name (np_links)
+0001.237 () Processing table (InnoDB): np_postmeta - will restore as: 6v_postmeta
+0001.487 () Atomic restore: dropping original table (np_postmeta)
+0001.499 () Atomic restore: renaming new table (6v_postmeta) to final table name (np_postmeta)
+0001.511 () Processing table (InnoDB): np_posts - will restore as: 6v_posts
+0001.691 () Atomic restore: dropping original table (np_posts)
+0001.700 () Atomic restore: renaming new table (6v_posts) to final table name (np_posts)
+0001.712 () Processing table (InnoDB): np_term_relationships - will restore as: 6v_term_relationships
+0001.753 () Atomic restore: dropping original table (np_term_relationships)
+0001.766 () Atomic restore: renaming new table (6v_term_relationships) to final table name (np_term_relationships)
+0001.777 () Processing table (InnoDB): np_term_taxonomy - will restore as: 6v_term_taxonomy
+0001.818 () Atomic restore: dropping original table (np_term_taxonomy)
+0001.827 () Atomic restore: renaming new table (6v_term_taxonomy) to final table name (np_term_taxonomy)
+0001.839 () Processing table (InnoDB): np_termmeta - will restore as: 6v_termmeta
+0001.866 () Database queries processed: 50 in 1.76 seconds
+0001.867 () Atomic restore: dropping original table (np_termmeta)
+0001.877 () Atomic restore: renaming new table (6v_termmeta) to final table name (np_termmeta)
+0001.889 () Processing table (InnoDB): np_terms - will restore as: 6v_terms
+0001.928 () Atomic restore: dropping original table (np_terms)
+0001.938 () Atomic restore: renaming new table (6v_terms) to final table name (np_terms)
+0001.949 () Processing table (InnoDB): np_alm - will restore as: 6v_alm
+0001.976 () Atomic restore: dropping original table (np_alm)
+0001.987 () Atomic restore: renaming new table (6v_alm) to final table name (np_alm)
+0001.999 () Processing table (InnoDB): np_e_events - will restore as: 6v_e_events
+0002.036 () Atomic restore: dropping original table (np_e_events)
+0002.046 () Atomic restore: renaming new table (6v_e_events) to final table name (np_e_events)
+0002.057 () Processing table (InnoDB): np_e_submissions - will restore as: 6v_e_submissions
+0002.208 () Atomic restore: dropping original table (np_e_submissions)
+0002.277 () Atomic restore: renaming new table (6v_e_submissions) to final table name (np_e_submissions)
+0002.303 () Processing table (InnoDB): np_e_submissions_actions_log - will restore as: 6v_e_submissions_actions_log
+0002.391 () Atomic restore: dropping original table (np_e_submissions_actions_log)
+0002.409 () Atomic restore: renaming new table (6v_e_submissions_actions_log) to final table name (np_e_submissions_actions_log)
+0002.427 () Processing table (InnoDB): np_e_submissions_values - will restore as: 6v_e_submissions_values
+0002.474 () Atomic restore: dropping original table (np_e_submissions_values)
+0002.490 () Atomic restore: renaming new table (6v_e_submissions_values) to final table name (np_e_submissions_values)
+0002.507 () Processing table (InnoDB): np_social_users - will restore as: 6v_social_users
+0002.548 () Atomic restore: dropping original table (np_social_users)
+0002.558 () Atomic restore: renaming new table (6v_social_users) to final table name (np_social_users)
+0002.570 () Processing table (InnoDB): np_wfblockediplog - will restore as: 6v_wfblockediplog
+0002.591 () Atomic restore: dropping original table (np_wfblockediplog)
+0002.603 () Atomic restore: renaming new table (6v_wfblockediplog) to final table name (np_wfblockediplog)
+0002.614 () Processing table (InnoDB): np_wfblocks7 - will restore as: 6v_wfblocks7
+0002.649 () Atomic restore: dropping original table (np_wfblocks7)
+0002.661 () Atomic restore: renaming new table (6v_wfblocks7) to final table name (np_wfblocks7)
+0002.673 () Processing table (InnoDB): np_wfconfig - will restore as: 6v_wfconfig
+0002.861 () Atomic restore: dropping original table (np_wfconfig)
+0002.871 () Atomic restore: renaming new table (6v_wfconfig) to final table name (np_wfconfig)
+0002.885 () Processing table (InnoDB): np_wfcrawlers - will restore as: 6v_wfcrawlers
+0002.908 () Atomic restore: dropping original table (np_wfcrawlers)
+0002.918 () Atomic restore: renaming new table (6v_wfcrawlers) to final table name (np_wfcrawlers)
+0002.930 () Processing table (InnoDB): np_wffilechanges - will restore as: 6v_wffilechanges
+0002.955 () Atomic restore: dropping original table (np_wffilechanges)
+0002.965 () Atomic restore: renaming new table (6v_wffilechanges) to final table name (np_wffilechanges)
+0002.979 () Processing table (InnoDB): np_wffilemods - will restore as: 6v_wffilemods
+0003.611 () Atomic restore: dropping original table (np_wffilemods)
+0003.643 () Atomic restore: renaming new table (6v_wffilemods) to final table name (np_wffilemods)
+0003.661 () Processing table (InnoDB): np_wfhits - will restore as: 6v_wfhits
+0003.695 () Atomic restore: dropping original table (np_wfhits)
+0003.704 () Atomic restore: renaming new table (6v_wfhits) to final table name (np_wfhits)
+0003.715 () Processing table (InnoDB): np_wfhoover - will restore as: 6v_wfhoover
+0003.741 () Atomic restore: dropping original table (np_wfhoover)
+0003.748 () Database queries processed: 100 in 3.64 seconds
+0003.748 () Atomic restore: renaming new table (6v_wfhoover) to final table name (np_wfhoover)
+0003.757 () Processing table (InnoDB): np_wfissues - will restore as: 6v_wfissues
+0003.794 () Atomic restore: dropping original table (np_wfissues)
+0003.802 () Atomic restore: renaming new table (6v_wfissues) to final table name (np_wfissues)
+0003.813 () Processing table (InnoDB): np_wfknownfilelist - will restore as: 6v_wfknownfilelist
+0004.132 () Atomic restore: dropping original table (np_wfknownfilelist)
+0004.138 () Atomic restore: renaming new table (6v_wfknownfilelist) to final table name (np_wfknownfilelist)
+0004.147 () Processing table (InnoDB): np_wflivetraffichuman - will restore as: 6v_wflivetraffichuman
+0004.178 () Atomic restore: dropping original table (np_wflivetraffichuman)
+0004.185 () Atomic restore: renaming new table (6v_wflivetraffichuman) to final table name (np_wflivetraffichuman)
+0004.196 () Processing table (InnoDB): np_wflocs - will restore as: 6v_wflocs
+0004.214 () Atomic restore: dropping original table (np_wflocs)
+0004.222 () Atomic restore: renaming new table (6v_wflocs) to final table name (np_wflocs)
+0004.229 () Processing table (InnoDB): np_wflogins - will restore as: 6v_wflogins
+0004.267 () Atomic restore: dropping original table (np_wflogins)
+0004.274 () Atomic restore: renaming new table (6v_wflogins) to final table name (np_wflogins)
+0004.284 () Processing table (InnoDB): np_wfls_2fa_secrets - will restore as: 6v_wfls_2fa_secrets
+0004.316 () Atomic restore: dropping original table (np_wfls_2fa_secrets)
+0004.324 () Atomic restore: renaming new table (6v_wfls_2fa_secrets) to final table name (np_wfls_2fa_secrets)
+0004.341 () Processing table (InnoDB): np_wfls_settings - will restore as: 6v_wfls_settings
+0004.368 () Atomic restore: dropping original table (np_wfls_settings)
+0004.375 () Atomic restore: renaming new table (6v_wfls_settings) to final table name (np_wfls_settings)
+0004.386 () Processing table (InnoDB): np_wfnotifications - will restore as: 6v_wfnotifications
+0004.413 () Atomic restore: dropping original table (np_wfnotifications)
+0004.421 () Atomic restore: renaming new table (6v_wfnotifications) to final table name (np_wfnotifications)
+0004.430 () Processing table (InnoDB): np_wfpendingissues - will restore as: 6v_wfpendingissues
+0004.462 () Atomic restore: dropping original table (np_wfpendingissues)
+0004.469 () Atomic restore: renaming new table (6v_wfpendingissues) to final table name (np_wfpendingissues)
+0004.478 () Processing table (InnoDB): np_wfreversecache - will restore as: 6v_wfreversecache
+0004.502 () Atomic restore: dropping original table (np_wfreversecache)
+0004.509 () Atomic restore: renaming new table (6v_wfreversecache) to final table name (np_wfreversecache)
+0004.519 () Processing table (InnoDB): np_wfsnipcache - will restore as: 6v_wfsnipcache
+0004.546 () Atomic restore: dropping original table (np_wfsnipcache)
+0004.553 () Atomic restore: renaming new table (6v_wfsnipcache) to final table name (np_wfsnipcache)
+0004.563 () Processing table (InnoDB): np_wfstatus - will restore as: 6v_wfstatus
+0004.702 () Atomic restore: dropping original table (np_wfstatus)
+0004.723 () Atomic restore: renaming new table (6v_wfstatus) to final table name (np_wfstatus)
+0004.747 () Processing table (InnoDB): np_wftrafficrates - will restore as: 6v_wftrafficrates
+0004.784 () Atomic restore: dropping original table (np_wftrafficrates)
+0004.792 () Atomic restore: renaming new table (6v_wftrafficrates) to final table name (np_wftrafficrates)
+0004.802 () Processing table (InnoDB): np_wpforms_tasks_meta - will restore as: 6v_wpforms_tasks_meta
+0004.827 () Atomic restore: dropping original table (np_wpforms_tasks_meta)
+0004.835 () Atomic restore: renaming new table (6v_wpforms_tasks_meta) to final table name (np_wpforms_tasks_meta)
+0004.845 () Processing table (InnoDB): np_wpmailsmtp_debug_events - will restore as: 6v_wpmailsmtp_debug_events
+0004.866 () Atomic restore: dropping original table (np_wpmailsmtp_debug_events)
+0004.877 () Atomic restore: renaming new table (6v_wpmailsmtp_debug_events) to final table name (np_wpmailsmtp_debug_events)
+0004.888 () Processing table (InnoDB): np_wpmailsmtp_tasks_meta - will restore as: 6v_wpmailsmtp_tasks_meta
+0004.905 () Database queries processed: 150 in 4.80 seconds
+0005.021 () Unlocking database and leaving maintenance mode
+0005.021 () Disabling Maintenance mode&#8230;
+0005.022 () Atomic restore: dropping original table (np_wpmailsmtp_tasks_meta)
+0005.029 () Atomic restore: renaming new table (6v_wpmailsmtp_tasks_meta) to final table name (np_wpmailsmtp_tasks_meta)
+0005.037 () Finished: lines processed: 150 in 4.93 seconds
+0005.038 () Cleaning up rubbish...
+0005.053 () Entity: plugins
+0005.054 () restore_backup(backup_file=backup_2023-01-23-1852_Shift_5f4fb4e59676-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:44:"C:\xampp\htdocs\newspaper/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0005.054 () Unpacking backup... (backup_2023-01-23-1852_Shift_5f4fb4e59676-plugins.zip, 35.7 MB)
+0005.068 () Unzipping backup_2023-01-23-1852_Shift_5f4fb4e59676-plugins.zip to C:/xampp/htdocs/newspaper/wp-content/upgrade/40b6b092/ using UpdraftPlus_PclZip, starting index 0
+0007.057 () Unzip progress: 1546 out of 8339 files (2.4 KB, plugins/ajax-load-more/admin/admin-functions.php)
+0010.579 () Unzip progress: 2547 out of 8339 files (9.9 MB, plugins/elementor/assets/images/app/site-editor/products.svg)
+0015.722 () Unzip progress: 3548 out of 8339 files (46.5 MB, plugins/elementor-pro/core/app/modules/site-editor/assets/js/pages/conditions/condition-sub.js)
+0024.233 () Unzip progress: 4549 out of 8339 files (56.6 MB, plugins/updraftplus/includes/labelauty/jquery-labelauty.css)
+0033.424 () Unzip progress: 5550 out of 8339 files (76.3 MB, plugins/wordfence/crypto/vendor/paragonie/sodium_compat/src/Core/Ed25519.php)
+0041.636 () Unzip progress: 6551 out of 8339 files (94.8 MB, plugins/wp-mail-smtp/src/Providers/Sendlayer/Mailer.php)
+0051.126 () Unzip progress: 7552 out of 8339 files (105.5 MB, plugins/wpforms-lite/assets/images/anti-spam/custom-captcha.svg)
+0056.232 () Unzip progress: 8339 out of 8339 files (115.7 MB, plugins/wpforms-lite/wpforms.php)
+0056.236 () Moving old data: filesystem method / updraft_dir is potentially possible
+0056.237 () Moving old data: can potentially use wp_filesystem method / -old
+0056.237 () Moving old data out of the way...
+0061.725 () Top-level entities being moved: ajax-load-more, akismet, contact-form-7, elementor, elementor-pro, index.php, nextend-facebook-connect, search-exclude, updraftplus, wordfence, wp-content-filter, wp-lorem-ipsum, wp-mail-smtp, wpforms-lite
+0061.771 () Moving unpacked backup into place...
+0064.624 () Top-level entities being moved: ajax-load-more, akismet, contact-form-7, elementor, elementor-pro, index.php, nextend-facebook-connect, search-exclude, updraftplus, wordfence, wp-content-filter, wp-lorem-ipsum, wp-mail-smtp, wpforms-lite
+0064.669 () Cleaning up rubbish...
+0064.677 () Entity: themes
+0064.677 () restore_backup(backup_file=backup_2023-01-23-1852_Shift_5f4fb4e59676-themes.zip, type=themes, info=a:3:{s:4:"path";s:43:"C:\xampp\htdocs\newspaper/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0064.678 () Unpacking backup... (backup_2023-01-23-1852_Shift_5f4fb4e59676-themes.zip, 13.6 MB)
+0064.679 () Unzipping backup_2023-01-23-1852_Shift_5f4fb4e59676-themes.zip to C:/xampp/htdocs/newspaper/wp-content/upgrade/ce3600e3/ using UpdraftPlus_PclZip, starting index 0
+0067.675 () Unzip progress: 1002 out of 1169 files (21 MB, themes/yuki/lotta-framework/src/Facades/Query.php)
+0068.845 () Unzip progress: 1169 out of 1169 files (21.9 MB, themes/yuki-magazine/style.css)
+0068.848 () Moving old data: filesystem method / updraft_dir is potentially possible
+0068.848 () Moving old data: can potentially use wp_filesystem method / -old
+0068.848 () Moving old data out of the way...
+0069.249 () Top-level entities being moved: hello-elementor, index.php, twentytwentyone, twentytwentythree, twentytwentytwo, yuki, yuki-magazine
+0069.273 () Moving unpacked backup into place...
+0069.906 () Top-level entities being moved: hello-elementor, index.php, twentytwentyone, twentytwentythree, twentytwentytwo, yuki, yuki-magazine
+0069.928 () Cleaning up rubbish...
+0070.007 () Entity: uploads
+0070.008 () restore_backup(backup_file=backup_2023-01-23-1852_Shift_5f4fb4e59676-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\newspaper/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0070.008 () Unpacking backup... (backup_2023-01-23-1852_Shift_5f4fb4e59676-uploads.zip, 51.5 MB)
+0070.010 () Unzipping backup_2023-01-23-1852_Shift_5f4fb4e59676-uploads.zip to C:/xampp/htdocs/newspaper/wp-content/upgrade/756e2cba/ using UpdraftPlus_PclZip, starting index 0
+0073.235 () Unzip progress: 334 out of 334 files (51.8 MB, uploads/wpforms/cache/templates.json)
+0073.239 () Moving old data: filesystem method / updraft_dir is potentially possible
+0073.239 () Moving old data: can potentially use wp_filesystem method / -old
+0073.239 () Moving old data out of the way...
+0073.357 () Moving unpacked backup into place...
+0073.514 () Cleaning up rubbish...
+0073.555 () Entity: others
+0073.555 () restore_backup(backup_file=backup_2023-01-23-1852_Shift_5f4fb4e59676-others.zip, type=others, info=a:2:{s:4:"path";s:36:"C:\xampp\htdocs\newspaper/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0073.556 () Unpacking backup... (backup_2023-01-23-1852_Shift_5f4fb4e59676-others.zip, 3.6 MB)
+0073.557 () Unzipping backup_2023-01-23-1852_Shift_5f4fb4e59676-others.zip to C:/xampp/htdocs/newspaper/wp-content/upgrade/3fbe27fc/ using UpdraftPlus_PclZip, starting index 0
+0073.651 () Unzip progress: 27 out of 27 files (7.5 MB, wflogs/template.php)
+0073.722 () PHP event: code E_WARNING: rename(C:/xampp/htdocs/newspaper/wp-content/wflogs,C:/xampp/htdocs/newspaper/wp-content/wflogs-old): Acceso denegado (code: 5) (line 335, C:\xampp\htdocs\newspaper\wp-admin\includes\class-wp-filesystem-direct.php)
+0073.723 () PHP event: code E_WARNING: copy(): The first argument to copy() function cannot be a directory (line 309, C:\xampp\htdocs\newspaper\wp-admin\includes\class-wp-filesystem-direct.php)
+0073.723 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (C:/xampp/htdocs/newspaper/wp-content/wflogs)
+0073.746 () Restore failed...
+0073.746 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (C:/xampp/htdocs/newspaper/wp-content/wflogs)
+0073.746 () Restore failed
+0000.004 () Opened log file at time: Tue, 31 Jan 2023 15:42:52 +0000 on http://localhost/newspaper
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-D8AOC7A 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 88.2M | 90M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.010 () Free space on disk containing Updraft's temporary directory: 51932.7 MB
+0000.021 () Restore setup, now closing connection and starting restore over AJAX.
+0000.003 () Opened log file at time: Tue, 31 Jan 2023 15:42:56 +0000 on http://localhost/newspaper
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-D8AOC7A 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 84.8M | 88M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.004 () Free space on disk containing Updraft's temporary directory: 51932.1 MB
+0000.014 () Restore failed...
+0000.014 () Restore failed...
+0000.014 () Error message: Backup does not exist in the backup history (1674499920)
+0000.014 () Restore failed

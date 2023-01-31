@@ -1,0 +1,476 @@
+0000.001 (0) Opened log file at time: Tue, 31 Jan 2023 16:14:48 +0000 on http://localhost/newspaper
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 8.2.0 (apache2handler, Windows NT DESKTOP-D8AOC7A 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 85M | 88M) multisite: N openssl: OpenSSL 3.0.7 1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 52228.4 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.025 (0) Semaphore (fd, np_options) was stuck, set lock time to 2023-01-31 16:14:48
+0000.027 (0) Semaphore (fd, np_options) reset to 1
+0000.031 (0) Set semaphore last lock (fd) time to 2023-01-31 16:14:48
+0000.034 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=4345a3b8a52d, file_nonce=4345a3b8a52d begun at=1675181688 (0s ago), job type=backup
+0000.057 (0) Scheduling a resumption (1) after 600 seconds (1675182288) in case this run gets aborted
+0000.068 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 414, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0000.072 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 1970, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0000.077 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3590, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0000.080 (0) PHP event: code E_DEPRECATED: Using ${var} in strings is deprecated, use {$var} instead (line 3590, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0000.087 (0) Checking if we have a zip executable available
+0000.092 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.094 (0) Creation of backups of directories: beginning
+0000.108 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.118 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3383, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0003.921 (0) Total entities for the zip file: 1545 directories, 6794 files (0 skipped as non-modified), 115.7 MB
+0003.923 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 118481.5 KB, split: 409600 KB)
+0003.973 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.018 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.060 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.101 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.143 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0004.186 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0004.233 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0004.276 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0004.318 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0004.359 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0004.401 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0004.444 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0004.491 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0004.532 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0004.575 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0004.618 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0004.662 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0004.703 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0004.745 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0004.790 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0004.833 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0004.877 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0004.920 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0004.963 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0005.004 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0005.045 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0005.090 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0005.134 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0005.178 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0005.222 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0005.264 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0005.306 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0005.351 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0005.395 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0005.439 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0005.480 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0005.526 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0005.569 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0005.616 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0005.660 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0005.731 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0005.773 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0005.817 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0005.859 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0005.901 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0005.944 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0005.987 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0006.031 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0006.075 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0006.119 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0006.161 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0006.206 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0006.251 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0006.293 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0006.338 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0006.382 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0006.427 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0006.474 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0006.517 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0006.556 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0006.594 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0006.633 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0006.674 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0006.718 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0006.763 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0006.806 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0006.848 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0138.536 (0) Creating zip file manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.list-temp.tmp)
+0138.575 (0) Successfully created zip file manifest (size: 560659)
+0138.965 (0) Created plugins zip (0) - 36287.1 KB in 138.8 s (261.4 KB/s) (sha1: 1289736118b788a9291421e072f695accabbab07, sha256: eb6d2bc625240499edd226cdf5bbd7eead8da343ece4feac70366f173e105e1f)
+0138.968 (0) Deleting old temporary file: log.1435e8325920-browser.txt
+0138.983 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0138.985 (0) No remote despatch: user chose no remote backup service
+0138.988 (0) Recording as successfully uploaded: backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip
+0138.992 (0) Deleting zip manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip.list.tmp)
+0138.997 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0139.000 (0) Number of backup sets in history: 1; groups (db): 1
+0139.002 (0) Examining (for databases) backup set with group_id=0, nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0139.004 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0139.007 (0) Number of backup sets in history: 1; groups (files): 1
+0139.009 (0) Examining (for files) backup set with nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0139.009 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0139.011 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0139.024 (0) Beginning creation of dump of themes (split every: 400 MB)
+0139.401 (0) Total entities for the zip file: 196 directories, 973 files (0 skipped as non-modified), 21.9 MB
+0139.402 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 22433.9 KB, split: 409600 KB)
+0139.443 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0139.483 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0139.522 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0139.562 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0139.602 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0139.640 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0139.681 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0139.720 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0139.761 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0149.623 (0) Creating zip file manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.list-temp.tmp)
+0149.630 (0) Successfully created zip file manifest (size: 69638)
+0149.761 (0) Created themes zip (0) - 13809.3 KB in 10.7 s (1287 KB/s) (sha1: 00888f445524f0e7d022cd5bd56f5ca1f3d336c3, sha256: 64a743096d925a55fe491bc66e3ff54231154c701db869aeee49dc73537674db)
+0149.769 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0149.772 (0) No remote despatch: user chose no remote backup service
+0149.773 (0) Recording as successfully uploaded: backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip
+0149.777 (0) Deleting zip manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip.list.tmp)
+0149.782 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0149.785 (0) Number of backup sets in history: 1; groups (db): 1
+0149.787 (0) Examining (for databases) backup set with group_id=0, nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0149.790 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0149.791 (0) Number of backup sets in history: 1; groups (files): 1
+0149.794 (0) Examining (for files) backup set with nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0149.794 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0149.796 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0149.806 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0149.809 (0) Looking for candidates to backup in: C:\xampp\htdocs\newspaper/wp-content/uploads
+0149.810 (0) finding files: 2022: adding to list (1)
+0149.813 (0) finding files: 2023: adding to list (2)
+0149.815 (0) finding files: alm_templates: adding to list (3)
+0149.817 (0) finding files: elementor: adding to list (4)
+0149.819 (0) finding files: nsl_avatars: adding to list (5)
+0149.821 (0) finding files: ultp: adding to list (6)
+0149.822 (0) finding files: wpcf7_uploads: adding to list (7)
+0149.825 (0) finding files: wpforms: adding to list (8)
+0149.826 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0149.938 (0) Total entities for the zip file: 15 directories, 323 files (0 skipped as non-modified), 51.9 MB
+0149.941 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 53179.8 KB, split: 409600 KB)
+0149.983 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0150.022 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0150.092 (0) Zip: backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0154.371 (0) Creating zip file manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip.list-temp.tmp)
+0154.376 (0) Successfully created zip file manifest (size: 20068)
+0154.838 (0) Created uploads zip (0) - 50377.6 KB in 5 s (10068.2 KB/s) (sha1: d7f2b706d267be06d66e6af6439aba37d08b4707, sha256: f5b2f0d666e729e3522b159d1fd57184c8f9c1015fd2fa2cf4d502c19a62658d)
+0154.846 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0154.848 (0) No remote despatch: user chose no remote backup service
+0154.851 (0) Recording as successfully uploaded: backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip
+0154.856 (0) Deleting zip manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip.list.tmp)
+0154.860 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0154.863 (0) Number of backup sets in history: 1; groups (db): 1
+0154.865 (0) Examining (for databases) backup set with group_id=0, nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0154.867 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.868 (0) Number of backup sets in history: 1; groups (files): 1
+0154.871 (0) Examining (for files) backup set with nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0154.871 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0154.872 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0154.883 (0) Beginning backup of other directories found in the content directory (index: 0)
+0154.885 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0154.887 (0) Looking for candidates to backup in: C:\xampp\htdocs\newspaper/wp-content
+0154.889 (0) finding files: fonts: adding to list (1)
+0154.891 (0) finding files: index.php: adding to list (2)
+0154.892 (0) finding files: plugins: skipping: this is the plugins directory
+0154.894 (0) finding files: themes: skipping: this is the themes directory
+0154.896 (0) finding files: updraft: skipping: this is the updraft directory
+0154.899 (0) finding files: upgrade: skipping: excluded by options
+0154.901 (0) finding files: uploads: skipping: this is the uploads directory
+0154.903 (0) finding files: wflogs: adding to list (3)
+0154.918 (0) Total entities for the zip file: 3 directories, 24 files (0 skipped as non-modified), 7.5 MB
+0154.920 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 7664.7 KB, split: 409600 KB)
+0155.538 (0) Creating zip file manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-others.zip.list-temp.tmp)
+0155.542 (0) Successfully created zip file manifest (size: 1117)
+0155.585 (0) Created others zip (0) - 3725.7 KB in 0.7 s (5521.3 KB/s) (sha1: 38a0ed2f07a2d46d09f4157f83fc52a9baf44003, sha256: d9668b0300c81747b0a6967a6a2abe0f3e493f329111363e5807fb1365ca7f06)
+0155.592 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0155.594 (0) No remote despatch: user chose no remote backup service
+0155.595 (0) Recording as successfully uploaded: backup_2023-01-31-1614_Shift_4345a3b8a52d-others.zip
+0155.601 (0) Deleting zip manifest (backup_2023-01-31-1614_Shift_4345a3b8a52d-others.zip.list.tmp)
+0155.605 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0155.607 (0) Number of backup sets in history: 1; groups (db): 1
+0155.609 (0) Examining (for databases) backup set with group_id=0, nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0155.609 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0155.611 (0) Number of backup sets in history: 1; groups (files): 1
+0155.612 (0) Examining (for files) backup set with nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0155.612 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0155.614 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0155.629 (0) Saving backup status to database (elements: 8)
+0155.634 (0) Beginning creation of database dump (WordPress DB)
+0155.636 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0155.689 (0) Table np_options: Total expected rows (via COUNT): 556
+0155.763 (0) Table np_options: Rows added in this batch (next record: 4378): 549 (uncompressed bytes in this segment=1926995) in 0.11 seconds
+0155.778 (0) Table np_options: finishing file(s) (2, 378.1 KB)
+0155.789 (0) Table np_users: Total expected rows (via COUNT): 2
+0155.792 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0155.798 (0) Table np_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1363) in 0.01 seconds
+0155.808 (0) Table np_users: finishing file(s) (2, 0.7 KB)
+0155.822 (0) Table np_usermeta: Total expected rows (via COUNT): 60
+0155.824 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0155.829 (0) Table np_usermeta: Rows added in this batch (next record: 81): 60 (uncompressed bytes in this segment=5152) in 0.01 seconds
+0155.841 (0) Table np_usermeta: finishing file(s) (2, 2 KB)
+0155.855 (0) Table np_actionscheduler_actions: Total expected rows (via COUNT): 40
+0155.857 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0155.862 (0) Table np_actionscheduler_actions: Rows added in this batch (next record: 527): 40 (uncompressed bytes in this segment=17141) in 0.01 seconds
+0155.874 (0) Table np_actionscheduler_actions: finishing file(s) (2, 1.9 KB)
+0155.884 (0) Table np_actionscheduler_claims: Total expected rows (via COUNT): 0
+0155.889 (0) Table np_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0155.898 (0) Table np_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0155.908 (0) Table np_actionscheduler_groups: Total expected rows (via COUNT): 3
+0155.910 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0155.914 (0) Table np_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=697) in 0.01 seconds
+0155.925 (0) Table np_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0155.935 (0) Table np_actionscheduler_logs: Total expected rows (via COUNT): 110
+0155.937 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0155.942 (0) Table np_actionscheduler_logs: Rows added in this batch (next record: 173): 110 (uncompressed bytes in this segment=10272) in 0.01 seconds
+0155.955 (0) Table np_actionscheduler_logs: finishing file(s) (2, 1.5 KB)
+0155.969 (0) Table np_commentmeta: Total expected rows (via COUNT): 0
+0155.973 (0) Table np_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.01 seconds
+0155.988 (0) Table np_commentmeta: finishing file(s) (2, 0.4 KB)
+0155.998 (0) Table np_comments: Total expected rows (via COUNT): 0
+0156.003 (0) Table np_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1466) in 0.01 seconds
+0156.012 (0) Table np_comments: finishing file(s) (2, 0.5 KB)
+0156.052 (0) Table np_links: Total expected rows (via COUNT): 0
+0156.061 (0) Table np_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.03 seconds
+0156.074 (0) Table np_links: finishing file(s) (2, 0.5 KB)
+0156.104 (0) Table np_postmeta: Total expected rows (approximate): 2922
+0156.141 (0) Table np_postmeta: Rows added in this batch (next record: 4828): 3054 (uncompressed bytes in this segment=1022902) in 0.06 seconds
+0156.204 (0) Table np_postmeta: finishing file(s) (2, 68.9 KB)
+0156.259 (0) Table np_posts: Total expected rows (via COUNT): 515
+0156.288 (0) Table np_posts: Rows added in this batch (next record: 723): 515 (uncompressed bytes in this segment=834636) in 0.06 seconds
+0156.302 (0) Table np_posts: finishing file(s) (2, 59.4 KB)
+0156.312 (0) Table np_term_relationships: Total expected rows (approximate): 108
+0156.318 (0) Table np_term_relationships: Rows added in this batch (next record: 100000): 108 (uncompressed bytes in this segment=2237) in 0.01 seconds
+0156.330 (0) Table np_term_relationships: finishing file(s) (2, 0.7 KB)
+0156.359 (0) Table np_term_taxonomy: Total expected rows (via COUNT): 37
+0156.361 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.366 (0) Table np_term_taxonomy: Rows added in this batch (next record: 41): 37 (uncompressed bytes in this segment=2158) in 0.01 seconds
+0156.380 (0) Table np_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0156.394 (0) Table np_termmeta: Total expected rows (via COUNT): 0
+0156.398 (0) Table np_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0156.411 (0) Table np_termmeta: finishing file(s) (2, 0.4 KB)
+0156.422 (0) Table np_terms: Total expected rows (via COUNT): 37
+0156.424 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.428 (0) Table np_terms: Rows added in this batch (next record: 41): 37 (uncompressed bytes in this segment=1825) in 0.01 seconds
+0156.441 (0) Table np_terms: finishing file(s) (2, 0.8 KB)
+0156.458 (0) Table np_alm: Total expected rows (via COUNT): 1
+0156.460 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.465 (0) Table np_alm: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=938) in 0.01 seconds
+0156.478 (0) Table np_alm: finishing file(s) (2, 0.6 KB)
+0156.490 (0) Table np_e_events: Total expected rows (via COUNT): 10
+0156.492 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.496 (0) Table np_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2535) in 0.01 seconds
+0156.507 (0) Table np_e_events: finishing file(s) (2, 0.7 KB)
+0156.520 (0) Table np_e_submissions: Total expected rows (via COUNT): 0
+0156.526 (0) Table np_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1979) in 0.01 seconds
+0156.538 (0) Table np_e_submissions: finishing file(s) (2, 0.7 KB)
+0156.549 (0) Table np_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0156.553 (0) Table np_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1140) in 0.01 seconds
+0156.564 (0) Table np_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0156.578 (0) Table np_e_submissions_values: Total expected rows (via COUNT): 0
+0156.581 (0) Table np_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.01 seconds
+0156.596 (0) Table np_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0156.607 (0) Table np_social_users: Total expected rows (via COUNT): 1
+0156.610 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.615 (0) Table np_social_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=878) in 0.01 seconds
+0156.626 (0) Table np_social_users: finishing file(s) (2, 0.5 KB)
+0156.636 (0) Table np_wfblockediplog: Total expected rows (approximate): 0
+0156.641 (0) Table np_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=651) in 0.01 seconds
+0156.653 (0) Table np_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0156.666 (0) Table np_wfblocks7: Total expected rows (via COUNT): 0
+0156.669 (0) Table np_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0156.681 (0) Table np_wfblocks7: finishing file(s) (2, 0.4 KB)
+0156.691 (0) Table np_wfconfig: Total expected rows (approximate): 259
+0156.744 (0) Table np_wfconfig: Rows added in this batch (next record: 1000): 261 (uncompressed bytes in this segment=827317) in 0.06 seconds
+0156.755 (0) Table np_wfconfig: finishing file(s) (2, 428.1 KB)
+0156.766 (0) Table np_wfcrawlers: Total expected rows (approximate): 0
+0156.770 (0) Table np_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=576) in 0.01 seconds
+0156.782 (0) Table np_wfcrawlers: finishing file(s) (2, 0.4 KB)
+0156.792 (0) Table np_wffilechanges: Total expected rows (approximate): 0
+0156.795 (0) Table np_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=476) in 0.01 seconds
+0156.808 (0) Table np_wffilechanges: finishing file(s) (2, 0.3 KB)
+0156.818 (0) Table np_wffilemods: Total expected rows (approximate): 0
+0156.822 (0) Table np_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=841) in 0.01 seconds
+0156.832 (0) Table np_wffilemods: finishing file(s) (2, 0.4 KB)
+0156.843 (0) Table np_wfhits: Total expected rows (via COUNT): 3
+0156.846 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.851 (0) Table np_wfhits: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2044) in 0.01 seconds
+0156.861 (0) Table np_wfhits: finishing file(s) (2, 0.9 KB)
+0156.871 (0) Table np_wfhoover: Total expected rows (via COUNT): 0
+0156.877 (0) Table np_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=539) in 0.01 seconds
+0156.887 (0) Table np_wfhoover: finishing file(s) (2, 0.3 KB)
+0156.900 (0) Table np_wfissues: Total expected rows (via COUNT): 1
+0156.902 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0156.907 (0) Table np_wfissues: Rows added in this batch (next record: 38): 1 (uncompressed bytes in this segment=1737) in 0.01 seconds
+0156.918 (0) Table np_wfissues: finishing file(s) (2, 0.9 KB)
+0156.927 (0) Table np_wfknownfilelist: Total expected rows (approximate): 8814
+0157.031 (0) Table np_wfknownfilelist: Rows added in this batch (next record: 8609): 8609 (uncompressed bytes in this segment=1796069) in 0.11 seconds
+0157.042 (0) Table np_wfknownfilelist: finishing file(s) (2, 138 KB)
+0157.052 (0) Table np_wflivetraffichuman: Total expected rows (approximate): 0
+0157.056 (0) Table np_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=672) in 0.01 seconds
+0157.091 (0) Table np_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0157.111 (0) Table np_wflocs: Total expected rows (approximate): 0
+0157.115 (0) Table np_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0157.127 (0) Table np_wflocs: finishing file(s) (2, 0.4 KB)
+0157.139 (0) Table np_wflogins: Total expected rows (via COUNT): 3
+0157.143 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.149 (0) Table np_wflogins: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1348) in 0.01 seconds
+0157.160 (0) Table np_wflogins: finishing file(s) (2, 0.7 KB)
+0157.172 (0) Table np_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0157.178 (0) Table np_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=705) in 0.01 seconds
+0157.190 (0) Table np_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0157.202 (0) Table np_wfls_settings: Total expected rows (approximate): 24
+0157.206 (0) Table np_wfls_settings: Rows added in this batch (next record: 1000): 24 (uncompressed bytes in this segment=1842) in 0.01 seconds
+0157.218 (0) Table np_wfls_settings: finishing file(s) (2, 0.9 KB)
+0157.228 (0) Table np_wfnotifications: Total expected rows (approximate): 4
+0157.232 (0) Table np_wfnotifications: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1860) in 0.01 seconds
+0157.245 (0) Table np_wfnotifications: finishing file(s) (2, 0.9 KB)
+0157.259 (0) Table np_wfpendingissues: Total expected rows (via COUNT): 0
+0157.263 (0) Table np_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=896) in 0.01 seconds
+0157.277 (0) Table np_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0157.287 (0) Table np_wfreversecache: Total expected rows (approximate): 0
+0157.290 (0) Table np_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=521) in 0.01 seconds
+0157.302 (0) Table np_wfreversecache: finishing file(s) (2, 0.3 KB)
+0157.315 (0) Table np_wfsnipcache: Total expected rows (via COUNT): 0
+0157.319 (0) Table np_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.01 seconds
+0157.330 (0) Table np_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0157.340 (0) Table np_wfstatus: Total expected rows (approximate): 1002
+0157.356 (0) Table np_wfstatus: Rows added in this batch (next record: 1651): 1002 (uncompressed bytes in this segment=99726) in 0.02 seconds
+0157.369 (0) Table np_wfstatus: finishing file(s) (2, 16.8 KB)
+0157.379 (0) Table np_wftrafficrates: Total expected rows (approximate): 0
+0157.382 (0) Table np_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=590) in 0.01 seconds
+0157.394 (0) Table np_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0157.407 (0) Table np_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0157.410 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.414 (0) Table np_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=838) in 0.01 seconds
+0157.427 (0) Table np_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0157.438 (0) Table np_wpmailsmtp_debug_events: Total expected rows (via COUNT): 2
+0157.441 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.442 (0) Table np_wpmailsmtp_debug_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2860) in 0.01 seconds
+0157.454 (0) Table np_wpmailsmtp_debug_events: finishing file(s) (2, 0.9 KB)
+0157.469 (0) Table np_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0157.471 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0157.474 (0) Table np_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=699) in 0.01 seconds
+0157.486 (0) Table np_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0157.489 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\newspaper/wp-content/updraft/backup_2023-01-31-1614_Shift_4345a3b8a52d-db.gz (line 1924, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0157.492 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_options.table.tmpr4379.gz (1/46/fopen): adding to final database dump
+0157.504 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_options.table.gz (2/46/fopen): adding to final database dump
+0157.507 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_users.table.tmpr3.gz (3/46/fopen): adding to final database dump
+0157.509 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_users.table.gz (4/46/fopen): adding to final database dump
+0157.512 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_usermeta.table.tmpr82.gz (5/46/fopen): adding to final database dump
+0157.514 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_usermeta.table.gz (6/46/fopen): adding to final database dump
+0157.517 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_actions.table.tmpr528.gz (7/46/fopen): adding to final database dump
+0157.519 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_actions.table.gz (8/46/fopen): adding to final database dump
+0157.522 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_claims.table.tmpr0.gz (9/46/fopen): adding to final database dump
+0157.524 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_claims.table.gz (10/46/fopen): adding to final database dump
+0157.527 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_groups.table.tmpr4.gz (11/46/fopen): adding to final database dump
+0157.528 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_groups.table.gz (12/46/fopen): adding to final database dump
+0157.531 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_logs.table.tmpr174.gz (13/46/fopen): adding to final database dump
+0157.533 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_actionscheduler_logs.table.gz (14/46/fopen): adding to final database dump
+0157.535 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_commentmeta.table.tmpr0.gz (15/46/fopen): adding to final database dump
+0157.537 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_commentmeta.table.gz (16/46/fopen): adding to final database dump
+0157.540 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_comments.table.tmpr0.gz (17/46/fopen): adding to final database dump
+0157.541 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_comments.table.gz (18/46/fopen): adding to final database dump
+0157.543 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_links.table.tmpr0.gz (19/46/fopen): adding to final database dump
+0157.545 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_links.table.gz (20/46/fopen): adding to final database dump
+0157.548 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_postmeta.table.tmpr4829.gz (21/46/fopen): adding to final database dump
+0157.555 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_postmeta.table.gz (22/46/fopen): adding to final database dump
+0157.557 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_posts.table.tmpr724.gz (23/46/fopen): adding to final database dump
+0157.560 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_posts.table.gz (24/46/fopen): adding to final database dump
+0157.563 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_term_relationships.table.tmpr100001.gz (25/46/fopen): adding to final database dump
+0157.565 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_term_relationships.table.gz (26/46/fopen): adding to final database dump
+0157.568 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_term_taxonomy.table.tmpr42.gz (27/46/fopen): adding to final database dump
+0157.570 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_term_taxonomy.table.gz (28/46/fopen): adding to final database dump
+0157.572 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_termmeta.table.tmpr0.gz (29/46/fopen): adding to final database dump
+0157.574 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_termmeta.table.gz (30/46/fopen): adding to final database dump
+0157.576 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_terms.table.tmpr42.gz (31/46/fopen): adding to final database dump
+0157.577 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_terms.table.gz (32/46/fopen): adding to final database dump
+0157.580 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_alm.table.tmpr2.gz (33/46/fopen): adding to final database dump
+0157.582 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_alm.table.gz (34/46/fopen): adding to final database dump
+0157.584 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_events.table.tmpr11.gz (35/46/fopen): adding to final database dump
+0157.585 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_events.table.gz (36/46/fopen): adding to final database dump
+0157.588 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_submissions.table.tmpr0.gz (37/46/fopen): adding to final database dump
+0157.589 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_submissions.table.gz (38/46/fopen): adding to final database dump
+0157.592 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_submissions_actions_log.table.tmpr0.gz (39/46/fopen): adding to final database dump
+0157.593 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_submissions_actions_log.table.gz (40/46/fopen): adding to final database dump
+0157.595 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_submissions_values.table.tmpr0.gz (41/46/fopen): adding to final database dump
+0157.597 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_e_submissions_values.table.gz (42/46/fopen): adding to final database dump
+0157.599 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_social_users.table.tmpr2.gz (43/46/fopen): adding to final database dump
+0157.601 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_social_users.table.gz (44/46/fopen): adding to final database dump
+0157.603 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfblockediplog.table.tmpr1.gz (45/46/fopen): adding to final database dump
+0157.605 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfblockediplog.table.gz (46/46/fopen): adding to final database dump
+0157.607 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfblocks7.table.tmpr0.gz (47/46/fopen): adding to final database dump
+0157.608 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfblocks7.table.gz (48/46/fopen): adding to final database dump
+0157.611 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfconfig.table.tmpr1001.gz (49/46/fopen): adding to final database dump
+0157.622 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfconfig.table.gz (50/46/fopen): adding to final database dump
+0157.624 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfcrawlers.table.tmpr1.gz (51/46/fopen): adding to final database dump
+0157.625 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfcrawlers.table.gz (52/46/fopen): adding to final database dump
+0157.628 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wffilechanges.table.tmpr1.gz (53/46/fopen): adding to final database dump
+0157.629 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wffilechanges.table.gz (54/46/fopen): adding to final database dump
+0157.632 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wffilemods.table.tmpr1.gz (55/46/fopen): adding to final database dump
+0157.633 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wffilemods.table.gz (56/46/fopen): adding to final database dump
+0157.636 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfhits.table.tmpr4.gz (57/46/fopen): adding to final database dump
+0157.637 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfhits.table.gz (58/46/fopen): adding to final database dump
+0157.640 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfhoover.table.tmpr0.gz (59/46/fopen): adding to final database dump
+0157.641 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfhoover.table.gz (60/46/fopen): adding to final database dump
+0157.643 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfissues.table.tmpr39.gz (61/46/fopen): adding to final database dump
+0157.645 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfissues.table.gz (62/46/fopen): adding to final database dump
+0157.647 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfknownfilelist.table.tmpr8610.gz (63/46/fopen): adding to final database dump
+0157.652 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfknownfilelist.table.gz (64/46/fopen): adding to final database dump
+0157.655 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wflivetraffichuman.table.tmpr1.gz (65/46/fopen): adding to final database dump
+0157.656 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wflivetraffichuman.table.gz (66/46/fopen): adding to final database dump
+0157.658 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wflocs.table.tmpr1.gz (67/46/fopen): adding to final database dump
+0157.661 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wflocs.table.gz (68/46/fopen): adding to final database dump
+0157.664 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wflogins.table.tmpr4.gz (69/46/fopen): adding to final database dump
+0157.665 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wflogins.table.gz (70/46/fopen): adding to final database dump
+0157.668 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfls_2fa_secrets.table.tmpr0.gz (71/46/fopen): adding to final database dump
+0157.669 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfls_2fa_secrets.table.gz (72/46/fopen): adding to final database dump
+0157.672 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfls_settings.table.tmpr1001.gz (73/46/fopen): adding to final database dump
+0157.673 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfls_settings.table.gz (74/46/fopen): adding to final database dump
+0157.675 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfnotifications.table.tmpr1001.gz (75/46/fopen): adding to final database dump
+0157.677 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfnotifications.table.gz (76/46/fopen): adding to final database dump
+0157.679 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfpendingissues.table.tmpr0.gz (77/46/fopen): adding to final database dump
+0157.681 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfpendingissues.table.gz (78/46/fopen): adding to final database dump
+0157.683 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfreversecache.table.tmpr1.gz (79/46/fopen): adding to final database dump
+0157.685 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfreversecache.table.gz (80/46/fopen): adding to final database dump
+0157.687 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfsnipcache.table.tmpr0.gz (81/46/fopen): adding to final database dump
+0157.689 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfsnipcache.table.gz (82/46/fopen): adding to final database dump
+0157.691 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfstatus.table.tmpr1652.gz (83/46/fopen): adding to final database dump
+0157.693 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wfstatus.table.gz (84/46/fopen): adding to final database dump
+0157.695 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wftrafficrates.table.tmpr1.gz (85/46/fopen): adding to final database dump
+0157.697 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wftrafficrates.table.gz (86/46/fopen): adding to final database dump
+0157.700 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wpforms_tasks_meta.table.tmpr4.gz (87/46/fopen): adding to final database dump
+0157.701 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wpforms_tasks_meta.table.gz (88/46/fopen): adding to final database dump
+0157.703 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wpmailsmtp_debug_events.table.tmpr3.gz (89/46/fopen): adding to final database dump
+0157.705 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wpmailsmtp_debug_events.table.gz (90/46/fopen): adding to final database dump
+0157.707 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wpmailsmtp_tasks_meta.table.tmpr2.gz (91/46/fopen): adding to final database dump
+0157.708 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db-table-np_wpmailsmtp_tasks_meta.table.gz (92/46/fopen): adding to final database dump
+0157.731 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db.gz: finished writing out complete database file (1113.9 KB)
+0157.766 (0) Total database tables backed up: 46 (backup_2023-01-31-1614_Shift_4345a3b8a52d-db.gz, size: 1140746, sha1: 5b4af94e8495d853defa80b8a496c8c9d416bd0a, sha256: 48958686e924f55a7bd5ba436f2a1c51addb527357d2a39ea3b9c334df6770d9)
+0157.773 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2864, C:\xampp\htdocs\newspaper\wp-content\plugins\updraftplus\backup.php)
+0157.776 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-plugins.zip: plugins: This file has already been successfully uploaded
+0157.778 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-themes.zip: themes: This file has already been successfully uploaded
+0157.780 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-uploads.zip: uploads: This file has already been successfully uploaded
+0157.781 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-others.zip: others: This file has already been successfully uploaded
+0157.783 (0) backup_2023-01-31-1614_Shift_4345a3b8a52d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0157.785 (0) Saving backup history. Total backup size: 102.8 MB
+0157.788 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0157.794 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0157.795 (0) No remote despatch: user chose no remote backup service
+0157.798 (0) Recording as successfully uploaded: backup_2023-01-31-1614_Shift_4345a3b8a52d-db.gz
+0157.804 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0157.805 (0) Number of backup sets in history: 2; groups (db): 1
+0157.807 (0) Examining (for databases) backup set with group_id=0, nonce=4345a3b8a52d, datestamp=1675181688 (Jan 31 2023 16:14:48)
+0157.807 (0) This backup set is the backup set just made, so will not be deleted.
+0157.807 (0) Examining (for databases) backup set with group_id=0, nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0157.807 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0157.808 (0) Number of backup sets in history: 2; groups (files): 1
+0157.810 (0) Examining (for files) backup set with nonce=4345a3b8a52d, datestamp=1675181688 (Jan 31 2023 16:14:48)
+0157.810 (0) This backup set is the backup set just made, so will not be deleted.
+0157.811 (0) This backup set is the backup set just made, so will not be deleted.
+0157.811 (0) This backup set is the backup set just made, so will not be deleted.
+0157.811 (0) This backup set is the backup set just made, so will not be deleted.
+0157.812 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0157.814 (0) Examining (for files) backup set with nonce=5f4fb4e59676, datestamp=1674499932 (Jan 23 2023 18:52:12)
+0157.814 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0157.814 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0157.818 (0) Resume backup (4345a3b8a52d, 0): finish run
+0157.822 (0) Decremented the semaphore (fd) by 1
+0157.825 (0) Semaphore (fd) unlocked
+0157.828 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0157.836 (0) No email will/can be sent - the user has not configured an email address.
+0157.839 (0) The backup apparently succeeded and is now complete
